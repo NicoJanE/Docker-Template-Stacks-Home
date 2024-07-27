@@ -1,0 +1,160 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#content-wrapper {
+  display: flex;
+  /*justify-content: space-between;*/
+  justify-content:flex-start;
+  padding: 4px; /* Adjust padding as needed */
+  overflow: visible;
+  
+}
+
+/* Vertical content on the left (page link items) */
+#sidebarL {  
+  flex: 0 0 120px; /* Initial size, no growing or shrinking */
+  font-size:10px;
+  padding: 10px;  
+  overflow: visible;
+  
+  background-color: #f5f5f5;    
+  min-height: 100%;  
+  border-radius: 5px; /* Rounded corners */
+}
+
+#main-content {
+  /* width: 69%; Adjust width as needed */
+  flex: 1 1 auto; /* Grow and shrink equally, initial size auto */
+  margin-left: 4px;
+  margin-right: 4px;
+  
+}
+
+/* Vertical content on the right (Download items) */
+#sidebarR {  
+  flex: 0 0 125px; /* Initial size, no growing or shrinking */
+  background-color: #f5f5f5;    
+  min-height: 100%;  
+  border-radius: 5px; /* Rounded corners */
+}
+
+@media only screen and (max-width: 768px) {
+  #content-wrapper {
+    flex-direction: column;
+  }
+
+  #sidebarL,
+  #sidebar,
+  #main-content {
+    width: 100%; /* Full width on smaller screens */
+    float: none; /* Reset float on smaller screens */
+  }
+}
+
+
+/* More compact download buttons */
+a.button2 {
+  width: 99px;
+  height: 13px;
+  margin-top: 7px;
+  margin-left: 7px;
+  display: inline-block;
+  padding: 6px 4px; 
+  background-color: #3077c8;    
+  color: white; 
+  text-size:8px;
+  text-decoration: none; 
+  border-radius: 5px;		 /* Rounded corners */
+  line-height: 13px;
+  
+}
+
+
+/* Used for the page link header and items in the left content block */
+ul.sq
+{
+	list-style-type: square;
+	font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
+	color: #3077c8; 
+	margin-top: -7px;   		/* Make sure page link items are closer to header(vertical) */
+}
+h3.sq
+{	
+	font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #3077c8;    	
+	position: relative;
+    display: inline-block;
+    padding-bottom: 4px;
+	margin-left: -9px;
+	margin-top: -6px;  		/* 145 Align the Page link with the 1 content header */
+}
+h3.sq::after 				/* Gradient line below the 'Page links' header */ 
+{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 140%;
+	height: 3px; /* Thickness of the line */
+	background: linear-gradient(to right, #3077c8, #5aa9e6); /* Gradient with base color */
+	
+}
+
+/* Indicates the selected page link in the left panel menu */
+.sel
+{
+	color:#c83077; /*#c86030;    	*/
+}
+
+.disabled
+{
+	color:gray
+}
+
+li.sm1
+{
+	margin-left: -20px;
+}
+small.sm1
+{
+	font-size: 8px;
+	margin-left: 7px;
+}
+small.sm2
+{
+	font-size: 11px;
+	margin-left: 2px;	
+}
+
+a.button small {
+  display: block;
+  font-size: 11px;
+}
+
+
+
+.summary-icon {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent; /* Adjust size as needed */
+  border-bottom: 5px solid transparent; /* Adjust size as needed */
+  border-left: 8px solid #8b5e3c; /* Color and size for the filled triangle */
+  margin-right: 5px; /* Space between the triangle and the text */
+  vertical-align: middle; /* Aligns the triangle with the text */
+}
+
+
+.clickable-summary {
+  cursor: pointer;
+/*  color: #800020; */
+  color: #8b5e3c;
+  
+  font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
+  font-style: italic; /* Italicize the text */
+  font-size:15px
+}
