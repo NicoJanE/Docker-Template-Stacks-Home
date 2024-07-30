@@ -86,15 +86,17 @@
 	
 	<div class="container-hs">
 	  <!-- Local home site link, if set in _config II  -->
-	  <h3 class="sq hs-title" style="--line-thickness:1px;">Home Sites</h3>		  
-	  <ul class="sq hs-sm1">			
-		{% for item in site.home_site_name %}
-			{% assign n = forloop.index0 %}			<!--  Assign index of current for loop to n -->
-			{% if site.home_site_url.size > n %}	<!-- Check if related URL exists, only then continue -->
-				<li class="sm1"><a  href="{{site.home_site_url[n] }}"> {{ item }} </a></li>
-			{% endif %}
-		{% endfor %}
-	   </ul>
+	  {% if site.home_site_url.size > 0 %}
+		<h3 class="sq hs-title" style="--line-thickness:1px;">Home Sites</h3>		  	 	 
+		<ul class="sq hs-sm1">			
+			{% for item in site.home_site_name %}
+				{% assign n = forloop.index0 %}			<!--  Assign index of current for loop to n -->
+				{% if site.home_site_url.size > n %}	<!-- Check if related URL exists, only then continue -->
+					<li class="sm1"><a  href="{{site.home_site_url[n] }}"> {{ item }} </a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	  {% endif %}
 	</div>
 	
 	
