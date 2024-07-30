@@ -12,7 +12,10 @@ theme: jekyll-theme-architect
 repository_owner: NicoJanE                          # kind of fixed
 repository_name:      # Update this(repository name) if discussions are enabled in GitHub. When Empty it will state 'no Discussions'
 
-
+# includes home links for this page, leave blank in case of no Home links. 
+# An toot site, so currently no other references to other main sites (cause there not available) 
+home_site_name: 
+home_site_url: 
 
 plugins:
 - jekyll-remote-theme 

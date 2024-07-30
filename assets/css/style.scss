@@ -3,20 +3,29 @@
 
 @import "{{ site.theme }}";
 
-#content-wrapper {
-  display: flex;
-  /*justify-content: space-between;*/
-  justify-content:flex-start;
-  padding: 4px; /* Adjust padding as needed */
-  overflow: visible;
-  
+:root{
+	--font-style: normal; 	/* normal, bold*/
+	--line-thickness: 3px;	/* original intent line thickness , that's why 3px is default */
 }
+#content-wrapper {
+  display: flex;  
+  justify-content:flex-start;
+  padding: 0px; 
+  overflow: visible; 
+  font-size:14px;
+  padding-left:4px;
+ 
+}
+
+
 
 /* Vertical content on the left (page link items) */
 #sidebarL {  
   flex: 0 0 120px; /* Initial size, no growing or shrinking */
   font-size:10px;
-  padding: 10px;  
+  padding-left: 14px;  
+  padding-right: 5px;  
+  padding-top: 14px;  
   overflow: visible;
   
   background-color: #f5f5f5;    
@@ -24,19 +33,53 @@
   border-radius: 5px; /* Rounded corners */
 }
 
+
+/* Container box for the Home Sites section on the right  */
+.container-hs {
+    position: flex;
+								/*    border: 1px solid #000; */
+    padding-left: 15px;    
+	padding-top:3px;
+	margin-top: 0px; 
+}
+/* In Container box the Home Sites title and line */
+.hs-title {
+	
+    position: relative;
+    width: 72%;    
+    text-align: left;
+    height: 22px;		 
+    margin-bottom: 10px;		 /* Space between title and list items */  
+}
+.hs-sm1 {
+    padding-left: 24px;    		/* Move list items to right */      
+}
+
+
+/* Container box for the Home Sites section on the right  */
+.container-down {
+    position: flex;
+								/*    border: 1px solid #000; */
+    padding-left: 15px;    
+	padding-top:0px;
+	margin-top: 50px; 
+}
+
+
 #main-content {
-  /* width: 69%; Adjust width as needed */
-  flex: 1 1 auto; /* Grow and shrink equally, initial size auto */
+  width: 99%; 
+  flex: 1 1 auto; 
   margin-left: 4px;
-  margin-right: 4px;
+  margin-right: 0px;
   
 }
 
 /* Vertical content on the right (Download items) */
 #sidebarR {  
-  flex: 0 0 125px; /* Initial size, no growing or shrinking */
+  flex: 0 0 130px;
   background-color: #f5f5f5;    
   min-height: 100%;  
+  padding-top: 7px;    
   border-radius: 5px; /* Rounded corners */
 }
 
@@ -58,10 +101,10 @@
 a.button2 {
   width: 99px;
   height: 13px;
-  margin-top: 7px;
-  margin-left: 7px;
+  margin-top: 4px;
+  margin-left: -6px;
   display: inline-block;
-  padding: 6px 4px; 
+  padding: 4px 4px; 
   background-color: #3077c8;    
   color: white; 
   text-size:8px;
@@ -78,19 +121,21 @@ ul.sq
 	list-style-type: square;
 	font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
 	color: #3077c8; 
-	margin-top: -7px;   		/* Make sure page link items are closer to header(vertical) */
+	margin-top: -7px;   			/* Make sure page link items are closer to header(vertical) */
 }
+
+/* Title and line beneath them */
 h3.sq
 {	
 	font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
 	font-size: 16px;
-	font-weight: bold;
+	font-weight: var(--font-style);   /* variable  style="--font-style: bold;"*/
 	color: #3077c8;    	
 	position: relative;
     display: inline-block;
     padding-bottom: 4px;
 	margin-left: -9px;
-	margin-top: -6px;  		/* 145 Align the Page link with the 1 content header */
+	margin-top: -6px;  		
 }
 h3.sq::after 				/* Gradient line below the 'Page links' header */ 
 {
@@ -99,15 +144,15 @@ h3.sq::after 				/* Gradient line below the 'Page links' header */
 	left: 0;
 	bottom: 0;
 	width: 140%;
-	height: 3px; /* Thickness of the line */
+	height: var(--line-thickness); 
 	background: linear-gradient(to right, #3077c8, #5aa9e6); /* Gradient with base color */
 	
 }
 
 /* Indicates the selected page link in the left panel menu */
 .sel
-{
-	color:#c83077; /*#c86030;    	*/
+{		
+	color:#FF7F50; /*#c86030; c83077     #FF7F50 	*/
 }
 
 .disabled
@@ -115,9 +160,12 @@ h3.sq::after 				/* Gradient line below the 'Page links' header */
 	color:gray
 }
 
+/* Font and size of list items in left and right side bar*/
 li.sm1
 {
+	font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
 	margin-left: -20px;
+	font-size: 12px;
 }
 small.sm1
 {
@@ -141,20 +189,19 @@ a.button small {
   display: inline-block;
   width: 0;
   height: 0;
-  border-top: 5px solid transparent; /* Adjust size as needed */
-  border-bottom: 5px solid transparent; /* Adjust size as needed */
-  border-left: 8px solid #8b5e3c; /* Color and size for the filled triangle */
-  margin-right: 5px; /* Space between the triangle and the text */
-  vertical-align: middle; /* Aligns the triangle with the text */
+  border-top: 5px solid transparent; 
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #8b5e3c; 
+  margin-right: 5px; 
+  vertical-align: middle; 
 }
 
 
 .clickable-summary {
   cursor: pointer;
-/*  color: #800020; */
-  color: #8b5e3c;
+  color: #8b5e3c;	/*  color: #800020; */
   
   font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
-  font-style: italic; /* Italicize the text */
+  font-style: italic; 
   font-size:15px
 }
