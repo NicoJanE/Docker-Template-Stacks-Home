@@ -100,9 +100,9 @@
 	</div>
 	
 	
-	<div class="container-down">
-	<h3 class="sq hs-title" style="--line-thickness:1px;">Code</h3>	
-	  {% if site.show_downloads %}
+	<div class="container-down">	
+	{% if site.show_downloads %}
+		<h3 class="sq hs-title" style="--line-thickness:1px;">Code</h3>	
 		<a href="{{ site.github.zip_url }}" class="button2" >
 		  <small class="sm2">Download</small>
 		  .zip
@@ -111,7 +111,7 @@
 		  <small class="sm2">Download</small>
 		  .tar.gz
 		</a>
-	  {% endif %}
+	{% endif %}
 	</div> 
 	
 	<br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br> <!-- TODO -->
