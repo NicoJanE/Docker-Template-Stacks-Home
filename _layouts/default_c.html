@@ -40,7 +40,9 @@
          <h3 class="sq style="--font-style: bold;" >Quick links</h3>
           <ul class="sq">
           	{% if page.name == "index.md" %}
-				<li class="sm1"><a href="./index.html"><span class="sel"> Home (SubSite)</span></a> </li>		<!-- NJE -->	
+				{% if site.index_hide_home == true %}
+					<li class="sm1"><a href="./index.html"><span class="sel"> Home (SubSite)</span></a> </li>		
+				{% endif %}	
 				{% for RefPage in page.RefPages %}			  
 					<li class="sm1"><a href="./{{site.BaseDir}}/{{RefPage}}.html">{{ RefPage }}</a> </li>			
 				{% endfor %}			

@@ -17,6 +17,9 @@ repository_name:      # Update this(repository name) if discussions are enabled 
 home_site_name: 
 home_site_url: 
 
+# Indicates if the page: index.md belongs to a root website. if true the Home link on the left will be suppressed  
+index_hide_home: false
+
 plugins:
 - jekyll-remote-theme 
 - jekyll-toc # Add this plugin for TOC generation
