@@ -16,24 +16,13 @@ This site keeps track of the different Docker Template Stacks and there document
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Requirements 
+To work with these DTS Docker containers, you should:
+- Have Docker Desktop installed and running, or another Docker engine running
+- Docker Desktop and the images are supported on the following operating systems.
+  - Supported on Windows
+  - Supported on Linux
+  - Supported on macOS
+- Have basic knowledge of Docker Desktop.
+- Although these images were developed using the Windows version of Docker Desktop, they should work fine on other operating systems, with perhaps minor changes needed for path names.
+ 
