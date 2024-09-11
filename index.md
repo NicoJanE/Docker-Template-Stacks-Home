@@ -14,9 +14,10 @@ This site keeps track of the different **Docker Template Stacks** and there docu
 - [React DTS](https://nicojane.github.io/React-Development-Template-Stack/) 
 - [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
 - [App X11 Forward GUI](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/)
-Develop GUI Desktop Applications and display them under Windows
+<span class="nje-ident"></span>Develop GUI Desktop Applications and display them under Windows
 
-
+- [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/)
+<span class="nje-ident"></span>Jenkins CI/CD setup for individual developers working on local projects (not for production)
 
 ## Requirements 
 To work with these DTS Docker containers, you should:
