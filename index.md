@@ -15,7 +15,7 @@ This site keeps track of the different **Docker Template Stacks** and there docu
 - [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
 - [App X11 Forward GUI](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- Develop .NET GUI Desktop Applications and display them under Windows</small><br>
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 12px;"/>- Sub container .NET Avalonia </small>
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- Sub container .NET Avalonia </small>
 - [App X11 Forward GUI Cross-Compiling Win32](https://nicojane.github.io/APP-X11-Forward-win32-Development-Template-Stack/) <br>
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- Jenkins CI/CD setup for individual developers working on local projects (not for production)</small>
