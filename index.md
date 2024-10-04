@@ -17,7 +17,9 @@ This site keeps track of the different **Docker Template Stacks** and there docu
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- Develop .NET GUI Desktop Applications and display them under Windows</small><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- Sub container .NET Avalonia </small>
 - [App X11 Forward GUI Cross-Compiling Win32](https://nicojane.github.io/APP-X11-Forward-win32-Development-Template-Stack/) <br>
-- [App X11 Forward GUI Cross-Compiling Win32](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) <br>
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- specific for win32/C language & frameworks  </small>
+- [App X11 Forward GUI Cross-Compiling Win32 C++](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) <br>
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- specific for Win32/C++ language & frameworks  </small>
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- Jenkins CI/CD setup for individual developers working on local projects (not for production)</small>
 
