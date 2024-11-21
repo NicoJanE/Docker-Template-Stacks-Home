@@ -10,7 +10,8 @@ RefPages:
 Welcome at the main-site **Docker Template Stack (DTS)**.
 
 This site keeps track of the different **Docker Template Stacks** and there documentation. Choose between one of the options below to see the related project website page.
-> Note: The prefix 'App X11 Forward GUI' indicates that the Docker container can display GUI content on the host using the X11 protocol.
+><small> Note: The prefix 'App X11 Forward GUI' indicates that the Docker container can display GUI content on the host using the X11 protocol. </small>
+
 - [PHP DTS](https://nicojane.github.io/PHP-Development-Template-Stack/)
 - [React DTS](https://nicojane.github.io/React-Development-Template-Stack/) 
 - [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
