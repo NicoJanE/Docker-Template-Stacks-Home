@@ -16,10 +16,9 @@ This site keeps track of the different **Docker Template Stacks** and there docu
 - [React DTS](https://nicojane.github.io/React-Development-Template-Stack/) 
 - [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
 - [App X11 Forward GUI](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
-Using X11 forwarding to develop GUI desktop applications in Docker <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- A generic .NET container with a basic Command Application template</small><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- An Avalonia project container, with Avalonia GUI project template, forwards X11 GUI to Windows host </small> <br>
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- A .NET project container in combination with GTK#, forwards X11 GUI to Windows host </small> <br>
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- An .NET project container in combination with GTK#, forwards X11 GUI to Windows host </small> <br>
 - [App X11 Forward GUI Cross-Compiling Win32](https://nicojane.github.io/APP-X11-Forward-win32-Development-Template-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- specific for win32/C language & frameworks  </small>
 - [App X11 Forward GUI Cross-Compiling Win32 C++](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) <br>
