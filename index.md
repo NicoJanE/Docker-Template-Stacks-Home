@@ -23,6 +23,8 @@ This site keeps track of the different **Docker Template Stacks** and there docu
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- specific for win32/C language & frameworks  </small>
 - [App X11 Forward GUI Cross-Compiling Win32 C++](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- specific for Win32/C++ language & frameworks  </small>
+- [App X11 Forward PyCRust](https://nicojane.github.io/APP-X11-Forward-PyCRust-Dev-Template-Stack//) <br>
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small>
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>- Jenkins CI/CD setup for individual developers working on local projects (not for production)</small>
 
