@@ -12,14 +12,12 @@ Welcome at the main-site **Docker Template Stack (DTS)**.
 This site keeps track of the different **Docker Template Stacks** and there documentation. Choose between one of the options below to see the related project website page.
 ><small> Note: The prefix 'App X11 Forward GUI' indicates that the Docker container can display GUI content on the host using the X11 protocol. </small>
 
-- [PHP DTS](https://nicojane.github.io/PHP-Development-Template-Stack/)
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
-  <small> - A PHP template project, Different php versions, PHP Unit test, Symfony and Apache2</small>
-- [React DTS](https://nicojane.github.io/React-Development-Template-Stack/) 
-- [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
+
+
+
 - [App X11 Forward GUI](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
-  <small> - 2A generic .NET container with a basic Command Application template</small> <br>
+  <small> - A generic .NET container with a basic Command Application template</small> <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An Avalonia project container, with Avalonia GUI project template, forwards X11 GUI to Windows host </small> <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
@@ -36,8 +34,14 @@ This site keeps track of the different **Docker Template Stacks** and there docu
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
    <small> - Jenkins CI/CD setup for individual developers working on local projects (not for production)</small> <br>
-
-
+- [PHP DTS](https://nicojane.github.io/PHP-Development-Template-Stack/)
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
+  <small> - A PHP template project, Different php versions, PHP Unit test, Symfony and Apache2</small>
+- [STM32](https://nicojane.github.io/STM32F4/)
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
+  <small> - A Docker container for microcontroller bare-bone projects, in C and C++</small>
+- [React DTS](https://nicojane.github.io/React-Development-Template-Stack/) 
+- [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
 
 ## Requirements 
 To work with these DTS Docker containers, you should:
