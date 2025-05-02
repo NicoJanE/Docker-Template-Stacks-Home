@@ -4,7 +4,7 @@ RefPages:
  
 --- 
 
-
+<br>
  
 # Introduction
 ***W***{: style="font-size:26px; "}elcome to the main site: **Docker Template Stack(DTS)!** <br>
@@ -30,11 +30,13 @@ Any container type may have the **pluggable property**. A **pluggable** containe
 
 > **Instruction**{: style="color:#5491fa;font-size:12px; "} <br>
 <small>
- A general instruction can be found **[here](https://nicojane.github.io/Docker-Template-Stacks-Home/pluggable) [local](./pluggable)**<br>
+ A general instruction can be found **[here](https://nicojane.github.io/Docker-Template-Stacks-Home/pluggable)  [incase your local](./pluggable)** <br>
  **Remark:**{: style="color:gray;font-size:10px; "} In hindsight, I would define **all containers** as pluggable<br>
  </small>
 
 <hr>
+
+## The available stacks
 
 ### GUI Forward stacks 🖥️
 - [App X11 Forward GUI](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
