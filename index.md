@@ -71,7 +71,9 @@ Any container type may have the **pluggable property**. A **pluggable** containe
 - [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
 - \[Maria DB\] To be released (🧩)
 
-### General Requirements 
+<hr>
+
+## General Requirements 
 To use these DTS Docker containers, you should:
 - Have **Docker Desktop** installed and running on your **host**
 - **Docker Desktop**  images are tested and supported on the following host operating systems.
