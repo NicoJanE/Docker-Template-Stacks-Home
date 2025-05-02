@@ -14,18 +14,17 @@ This site documents the different **Docker Template Stacks** I have available.
 ## General
 I distinguish between two container **types** and one container **property** type:
 
-**1. GUI-Forwarding Containers 🖥️**{: style="color:#dc9c2d;font-size:13px; "} <br>
-These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with:  
-***App X11 Forward GUI*** and marked with the above symbol this document.
+**1. Type: GUI-Forwarding Containers 🖥️**{: style="color:#5f7f90;font-size:13px; "} <br>
+These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with:  ***App X11 Forward GUI*** and marked with the above symbol in this document.
 
 > **Host requirement**{: style="color:#5491fa;font-size:13px; "} <br>
 <small>
 These containers require the **XLaunch** program to be installed on your Windows host.  XLaunch uses the **X11 protocol** to forward the GUI to your host.  Instructions can be found in the **How-to** document of the relevant containers. </small>
 
-**2\. Non-GUI Containers**{: style="color:#dc9c2d;font-size:13px; "} <br>
+**2\. Type: Non-GUI Containers**{: style="color:#5f7f90;font-size:13px; "} <br>
 These containers do **not** support GUI forwarding and do **not** use the ***'App X11 Forward GUI'*** prefix.
 
-**3\. Pluggable Stacks🧩**{: style="color:#dc9c2d;font-size:13px; "}  <br>
+**3\. Property: Pluggable Stacks🧩**{: style="color:#5f7f90;font-size:13px; "}  <br>
 Any container type may have the **pluggable property**. A **pluggable** container includes a `docker-compose.yml` file with a **network section,** designed for easy integration with other independent stacks via a shared external Docker network.
 
 > **Instruction**{: style="color:#5491fa;font-size:12px; "} <br>
@@ -37,6 +36,7 @@ Any container type may have the **pluggable property**. A **pluggable** containe
 <hr>
 
 ## The available stacks
+Next follows a list  with references to the available DTS stack 
 
 ### GUI Forward stacks
 - [App X11 Forward GUI 🖥️](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
