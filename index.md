@@ -12,7 +12,7 @@ This site documents the different **Docker Template Stacks** I have available.
 
 
 ## General
-I distinguish between a two container **types** and one container **property** type:
+I distinguish between two container **types** and one container **property** type:
 
 **1. GUI-Forwarding Containers 🖥️**{: style="color:#dc9c2d;font-size:13px; "} <br>
 These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with:  
@@ -38,25 +38,25 @@ Any container type may have the **pluggable property**. A **pluggable** containe
 
 ## The available stacks
 
-### GUI Forward stacks 🖥️
-- [App X11 Forward GUI](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
+### GUI Forward stacks
+- [App X11 Forward GUI 🖥️](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
   <small> - A generic .NET container with a basic Command Application template</small> <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An Avalonia project container, with Avalonia GUI project template, forwards X11 GUI to Windows host </small> <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An .NET project container in combination with GTK#, forwards X11 GUI to Windows host </small><br>
-- [App X11 Forward GUI Cross-Compiling Win32](https://nicojane.github.io/APP-X11-Forward-win32-Development-Template-Stack/) <br>
+- [App X11 Forward GUI Cross-Compiling Win32 🖥️](https://nicojane.github.io/APP-X11-Forward-win32-Development-Template-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
   <small> - Specific for win32/C language & frameworks  </small> <br>
-- [App X11 Forward GUI Cross-Compiling Win32 C++](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) <br>
+- [App X11 Forward GUI Cross-Compiling Win32 C++ 🖥️](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - specific for Win32/C++ language & frameworks  </small> <br>
-- [App X11 Forward PyCRust](https://nicojane.github.io/APP-X11-Forward-PyCRust-Dev-Template-Stack//) <br>
+- [App X11 Forward PyCRust 🖥️](https://nicojane.github.io/APP-X11-Forward-PyCRust-Dev-Template-Stack//) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
 
-### Normal stacks 🖥️
+### Normal stacks
 
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
