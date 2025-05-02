@@ -8,11 +8,12 @@ RefPages:
  
 # Introduction
 ***W***{: style="font-size:26px; "}elcome to the main site: **Docker Template Stack(DTS)!** <br>
-This site documents the different **Docker Template Stacks** I have available. I distinguish between a two container **types** and one container **property** type :
+This site documents the different **Docker Template Stacks** I have available.
 
-
+<br>
 
 ## General
+I distinguish between a two container **types** and one container **property** type:
 
 **1. GUI-Forwarding Containers 🖥️**{: style="color:#dc9c2d;font-size:13px; "} <br>
 These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with:  
