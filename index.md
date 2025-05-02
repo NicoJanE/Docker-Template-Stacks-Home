@@ -10,7 +10,6 @@ RefPages:
 ***W***{: style="font-size:26px; "}elcome to the main site: **Docker Template Stack(DTS)!** <br>
 This site documents the different **Docker Template Stacks** I have available.
 
-<br>
 
 ## General
 I distinguish between a two container **types** and one container **property** type:
