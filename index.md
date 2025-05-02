@@ -6,15 +6,37 @@ RefPages:
 
 
  
-# Welcome
-Welcome at the main-site **Docker Template Stack (DTS)**.
-
-This site keeps track of the different **Docker Template Stacks** and there documentation. Choose between one of the options below to see the related project website page.
-><small> Note: The prefix 'App X11 Forward GUI' indicates that the Docker container can display GUI content on the host using the X11 protocol. </small>
+# Introduction
+***W***{: style="font-size:26px; "}elcome to the main site: **Docker Template Stack(DTS)!** <br>
+This site documents the different **Docker Template Stacks** I have available. I distinguish between a two container **types** and one container **property** type :
 
 
 
+## General
 
+**1. GUI-Forwarding Containers 🖥️**{: style="color:#dc9c2d;font-size:13px; "} <br>
+These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with:  
+***App X11 Forward GUI*** and marked with the above symbol this document.
+
+> **Host requirement**{: style="color:#5491fa;font-size:13px; "} <br>
+<small>
+These containers require the **XLaunch** program to be installed on your Windows host.  XLaunch uses the **X11 protocol** to forward the GUI to your host.  Instructions can be found in the **How-to** document of the relevant containers. </small>
+
+**2\. Non-GUI Containers**{: style="color:#dc9c2d;font-size:13px; "} <br>
+These containers do **not** support GUI forwarding and do **not** use the ***'App X11 Forward GUI'*** prefix.
+
+**3\. Pluggable Stacks🧩**{: style="color:#dc9c2d;font-size:13px; "}  <br>
+Any container type may have the **pluggable property**. A **pluggable** container includes a `docker-compose.yml` file with a **network section,** designed for easy integration with other independent stacks via a shared external Docker network.
+
+> **Instruction**{: style="color:#5491fa;font-size:12px; "} <br>
+<small>
+ A general instruction can be found **[here](https://nicojane.github.io/Docker-Template-Stacks-Home/pluggable) [local](./pluggable)**<br>
+ **Remark:**{: style="color:gray;font-size:10px; "} In hindsight, I would define **all containers** as pluggable<br>
+ </small>
+
+<hr>
+
+### GUI Forward stacks 🖥️
 - [App X11 Forward GUI](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
   <small> - A generic .NET container with a basic Command Application template</small> <br>
@@ -31,6 +53,9 @@ This site keeps track of the different **Docker Template Stacks** and there docu
 - [App X11 Forward PyCRust](https://nicojane.github.io/APP-X11-Forward-PyCRust-Dev-Template-Stack//) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
+
+### Normal stacks 🖥️
+
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
    <small> - Jenkins CI/CD setup for individual developers working on local projects (not for production)</small> <br>
@@ -42,14 +67,17 @@ This site keeps track of the different **Docker Template Stacks** and there docu
   <small> - A Docker container for microcontroller bare-bone projects, in C and C++</small>
 - [React DTS](https://nicojane.github.io/React-Development-Template-Stack/) 
 - [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
+- \[Maria DB\] To be released (🧩)
 
-## Requirements 
-To work with these DTS Docker containers, you should:
-- Have Docker Desktop installed and running, or another Docker engine running
-- Docker Desktop and the images are supported on the following operating systems.
-  - Supported on Windows
-  - Supported on Linux
-  - Supported on macOS
-- Have basic knowledge of Docker Desktop.
-- Although these images were developed using the Windows version of Docker Desktop, they should work fine on other operating systems, with perhaps minor changes needed for path names.
- 
+### General Requirements 
+To use these DTS Docker containers, you should:
+- Have **Docker Desktop** installed and running on your **host**
+- **Docker Desktop**  images are tested and supported on the following host operating systems.
+  - Supported on Windows✅
+  - Supported on Linux❓
+  - Supported on macOS❓
+
+> **Instruction**{: style="color:#5491fa;font-size:12px; "} <br>
+<small>
+ Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄
+ </small>
