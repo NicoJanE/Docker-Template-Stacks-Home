@@ -4,6 +4,7 @@ RefPages:
  
 --- 
 
+
 <br>
  
 # Introduction
@@ -15,14 +16,15 @@ This site documents the different **Docker Template Stacks** I have available.
 I distinguish between two container **types** and one container **property** type:
 
 **1. Type: GUI-Forwarding Containers 🖥️**{: style="color:#5f7f90;font-size:13px; "} <br>
-These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with:  ***App X11 Forward GUI*** and marked with the above symbol in this document.
+These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with:  ***`App-X11-Forward`***  or ***`X11-GUI`*** <sup>[1](#note-1)</sup> prefix and are marked with the above desktop icon in this document.
+
 
 > **Host requirement**{: style="color:#5491fa;font-size:13px; "} <br>
 <small>
 These containers require the **XLaunch** program to be installed on your Windows host.  XLaunch uses the **X11 protocol** to forward the GUI to your host.  Instructions can be found in the **How-to** document of the relevant containers. </small>
 
 **2\. Type: Non-GUI Containers**{: style="color:#5f7f90;font-size:13px; "} <br>
-These containers do **not** support GUI forwarding and do **not** use the ***'App X11 Forward GUI'*** prefix.
+These containers do **not** support GUI forwarding and do **not** use the special prefix.
 
 **3\. Property: Pluggable Stacks🧩**{: style="color:#5f7f90;font-size:13px; "}  <br>
 Any container type may have the **pluggable property**. A **pluggable** container includes a `docker-compose.yml` file with a **network section,** designed for easy integration with other independent stacks via a shared external Docker network.
@@ -85,3 +87,9 @@ To use these DTS Docker containers, you should:
 <small>
  Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄
  </small>
+
+<hr>
+
+#### Footnotes
+
+<small>**1.** <a name="note-1"></a> the new preferred shorter prefix. </small>
