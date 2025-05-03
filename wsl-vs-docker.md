@@ -20,7 +20,7 @@ Both WSL and Docker containers can display GUI applications on the Windows host.
 
 1. **WSL**{: style="color:#5491fa;font-size:13px; "}
   - Requires **Windows 11**  
-  - Requires the **WSL extension** in Visual Studio Code (`ms-vscode-remote.remote-wsl`) — optional but recommended (see 'Usage & Advantages & performance')
+  - Requires the **WSL extension** in Visual Studio Code (`ms-vscode-remote.remote-wsl`) — optional but recommended (see 'Usage')
   - Uses **WSLg**, a Wayland-based X server built into Windows 11, to render GUI apps on the host
 
 1. **Docker**{: style="color:#5491fa;font-size:13px; "}

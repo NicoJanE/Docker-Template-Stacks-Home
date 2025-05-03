@@ -37,7 +37,7 @@ Any container type may have the **pluggable property**. A **pluggable** containe
 
 > **Instruction**{: style="color:#5491fa;font-size:12px; "} <br>
 <small>
- A general instruction can be found **[here](https://nicojane.github.io/Docker-Template-Stacks-Home/pluggable), or in case your local [here](./pluggable)** <br>
+ A general instruction can be found [**here**](https://nicojane.github.io/Docker-Template-Stacks-Home/pluggable), or in case your **local** [**here**](./pluggable)** <br>
  **Remark:**{: style="color:gray;font-size:10px; "} In hindsight, I would define **all containers** as pluggable<br>
  </small>
 
