@@ -9,11 +9,17 @@ RefPages:
  
 # Introduction
 ***W***{: style="font-size:26px; "}elcome to the main site: **Docker Template Stack(DTS)!** <br>
-This site documents the different **Docker Template Stacks** I have available.
+This site documents the various Docker Template Stacks available here. These stacks are designed to set up developer environments along with starter template projects in different programming languages and frameworks. A stack typically consists of a **base container** with general development tools. It may also include **optional sub-containers** that can be added as needed to support specific environments or frameworks.
+> ***Note: WSL vs Docker Containers***{: style="color:#5491fa;font-size:13px; "} <br>
+> <small>A separate section covers WSL-based containers. Refer to [**this**](https://nicojane.github.io/Docker-Template-Stacks-Home/wsl-vs-docker) ([or **local**](wsl-vs-docker)) page to understand the **differences** between WSL and Docker, and to explore the **advantages** of each approach.<br></small>
+  
+      
+
+
 
 
 ## General
-I distinguish between two container **types** and one container **property** type:
+We distinguish between two container **types** and one container **property** type:
 
 **1. Type: GUI-Forwarding Containers 🖥️**{: style="color:#5f7f90;font-size:13px; "} <br>
 These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with:  ***`App-X11-Forward`***  or ***`X11-GUI`*** <sup>[1](#note-1)</sup> prefix and are marked with the above desktop icon in this document.
