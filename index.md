@@ -118,7 +118,7 @@ These containers do **not** support GUI forwarding and do **not** use the specia
 # 2 The available stacks
 Next follows a list  with references to the available DTS stack 
 
-### GUI Forward stacks
+## 2.1 GUI Forward stacks
 - [App X11 Forward GUI 🖥️ <small>🛑</small> ](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
   <small> - <small>🛑</small>  *Deprecated!*{: style="color:red;font-size:12px; "} replaced by [X11-GUI-Dev](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/) </small> <br>
@@ -148,7 +148,7 @@ Next follows a list  with references to the available DTS stack
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
 
-### Normal stacks
+## 2.2 None GUI stacks
 
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
