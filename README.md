@@ -1,9 +1,3 @@
----
-layout: default_c
-RefPages:
-
---- 
-
 
 # 1. What
 
