@@ -6,7 +6,11 @@ RefPages:
 
 <br>
 # 1. What
-***W***{: style="font-size:26px; "}elcome to the **Docker Template Stack(DTS)** site!<br>
+***W***{: style="font-size:26px; "}elcome to the **Docker Template Stack(DTS)** site!<br><br>
+
+>> [Direct to the Available Stacks](#2-the-available-stacks)
+
+<br> 
 
 Docker Template Stacks provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
@@ -116,6 +120,7 @@ These containers do **not** support GUI forwarding and do **not** use the specia
 <hr>
 
 # 2 The available stacks
+
 Next follows a list  with references to the available DTS stack 
 
 ## 2.1 GUI Forward stacks
