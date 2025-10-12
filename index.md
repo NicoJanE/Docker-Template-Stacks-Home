@@ -8,7 +8,7 @@ RefPages:
 # 1. What
 ***W***{: style="font-size:26px; "}elcome to the **Docker Template Stack(DTS)** site!<br><br>
 
->> [Direct to the Available Stacks](#2-the-available-stacks)
+>> [Direct Link to the Available Stacks](#2-the-available-stacks)
 
 <br> 
 
