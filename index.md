@@ -63,7 +63,8 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 - **Service isolation** - Each container handles a specific responsibility
 - **Scalable architecture** - Add new services easily
 
-> **Technical Implementation:** [External Docker Network Setup Guide (Gist)](https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238) - Complete configuration details for implementing pluggable architecture
+><small> **Technical Implementation:** [External Docker Network Setup Guide (Gist)](https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238)  
+A complete configuration details for implementing pluggable architecture </small>
 
 ---
 
