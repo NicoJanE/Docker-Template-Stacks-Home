@@ -141,15 +141,6 @@ A complete configuration details for implementing pluggable architecture </small
 Next follows a list  with references to the available DTS stack components
 
 ## 2.1 GUI Forward stacks
-- [App X11 Forward GUI 🖥️ <small>🛑</small> ](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
-  <small> - <small>🛑</small>  *Deprecated!*{: style="color:red;font-size:12px; "} replaced by [X11-GUI-Dev](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/) </small> <br>
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
-  <small> - A generic .NET container with a basic Command Application template</small> <br>
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
-  <small> - An Avalonia project container, with Avalonia GUI project template, forwards X11 GUI to Windows host </small> <br>
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
-  <small> - An .NET project container in combination with GTK#, forwards X11 GUI to Windows host </small><br>
 - [X11-GUI-Dev 🖥️🧩](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/) <br>
   <small>The new **General purpose X11 GUI container** that forwards the GUI to Windows host, replacing ***App X11 Forward GUI***  </small><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
