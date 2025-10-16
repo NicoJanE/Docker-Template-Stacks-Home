@@ -71,7 +71,7 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 
 --
 
-## 1.4 Who & Why
+## 1.5 Who & Why
 
 <details>
   <summary> Target Audience
