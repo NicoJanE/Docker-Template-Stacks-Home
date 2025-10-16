@@ -1,7 +1,7 @@
 
 # 1. What
 
-Docker Template Stacks provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
+Docker Template Stack Components provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
 > [Direct Link to the Available Stacks](https://nicojane.github.io/Docker-Template-Stacks-Home/index#2-the-available-stacks)
 
@@ -9,7 +9,7 @@ Docker Template Stacks provide pre-configured containerized development environm
 
 ## 1.1 What's Included
 
-Docker Template Stacks are containerized development environments that combine:
+Docker Template Stack components are containerized development environments that combine:
 
 - **Pre-configured Docker containers** with specific programming language toolchains
 - **Complete development toolset** including compilers, package managers, and utilities
@@ -79,7 +79,7 @@ These containers do **not** support GUI forwarding and do **not** use the specia
   - Automatically provision the Docker container with all required tools and dependencies
   - Launch directly into VS Code with Dev Containers and start coding immediately
   - **Time to productivity: Minutes, not hours**
-
+- **Combining different container components into one stack**
 - **Completely Isolated Environment**
   - Each stack runs in its own Docker container with only relevant tools and dependencies
   - Eliminates version conflicts and dependency issues between different projects
@@ -102,9 +102,9 @@ These containers do **not** support GUI forwarding and do **not** use the specia
 
 <hr>
 
-# 2. The Docker-Template-Stacks
+# 2. The Docker Template Stack Components
 
-Please click on the link below for my docker Developer Template Stacks and the related information
+Please click on the link below for my docker Developer Template Stack Components and the related information
 
 <div style="text-align: center;">
 <font size="5">   <span style="color:#FFD700" >D</span>ocker <span style="color:#FFA500" >T</span>emplate <span style="color:#FF7F50" >S</span>tacks </font>

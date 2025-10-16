@@ -8,16 +8,17 @@ RefPages:
 # 1. What
 ***W***{: style="font-size:26px; "}elcome to the **Docker Template Stack (DTS)!**<br>
 
-> [Direct Link to the Available Stacks](#2-the-available-stacks)
+> [Direct Link to the Available Stack components](#2-the-available-stacks)
 
 
 Docker Template Stacks provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
 ## 1.1 What's Included
 
-Docker Template Stacks are containerized development environments that combine:
+Docker Template Stack components are containerized development environments that combine:
 
 - **Pre-configured Docker containers** with specific programming language toolchains
+- **Can be combined together to create a (network) Stack**
 - **Complete development toolset** including compilers, package managers, and utilities
 - **Ready-to-use template projects** demonstrating best practices and architecture
 - **Integrated development environment** with VS Code and Dev Containers extension
@@ -118,9 +119,9 @@ These containers do **not** support GUI forwarding and do **not** use the specia
 
 <hr>
 
-# 2 The available stacks
+# 2 The Available Stack Components
 
-Next follows a list  with references to the available DTS stack 
+Next follows a list  with references to the available DTS stack components
 
 ## 2.1 GUI Forward stacks
 - [App X11 Forward GUI 🖥️ <small>🛑</small> ](https://nicojane.github.io/APP-X11-Forward-Development-Template-Stack/) <br>

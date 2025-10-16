@@ -2,8 +2,8 @@
 #
 
 
-title: <font size="6">   <span style="color:#FFD700" >D</span>ocker <span style="color:#FFA500" >T</span>emplate <span style="color:#FF7F50" >S</span>tacks </font>
-description: <b><i><font size="3">A site for Docker development projects</span></font></i></b>
+title: <font size="6">   <span style="color:#FFD700" >D</span>ocker <span style="color:#FFA500" >T</span>emplate <span style="color:#FF7F50" >S</span>tack Components </font>
+description: <b><i><font size="3">Individual container templates that can be combined into complete stacks</span></font></i></b>
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
