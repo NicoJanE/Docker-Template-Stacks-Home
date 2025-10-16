@@ -10,7 +10,6 @@ RefPages:
 
 > [Direct Link to the Available Stack Components](#2-the-available-stack-components)
 
-
 Docker Template Stacks provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
 ## 1.1 What's Included
@@ -24,7 +23,9 @@ Docker Template Stack components are containerized development environments that
 - **Integrated development environment** with VS Code and Dev Containers extension
 - **GUI output, using WSLg or X11**  Containers can be configured to display graphical output on the host
 
-## 1.2 Docker Stack Types
+---
+
+## 1.2 Docker Container Types
 
 We distinguish between two container **types** and one container **property** type:
 
@@ -39,28 +40,43 @@ These containers forward their (GUI) output to the host using X11 forwarding. Th
 >  <small> These containers require the **XLaunch** program to be installed on your Windows host.  XLaunch uses the **X11 protocol** to forward the GUI to your host.  Instructions can be found in the **How-to** document of the relevant containers. </small>
 ></details>
 
-**1. Type: Non-GUI Containers**{: style="color:#5f7f90;font-size:13px; "} <br>
+**2. Type: Non-GUI Containers**{: style="color:#5f7f90;font-size:13px; "} <br>
 These containers do **not** support GUI forwarding and do **not** use the special prefix.
 
-><details>  
->  <summary class="clickable-summary">
->  <span  class="summary-icon"></span>
->  **Property: Pluggable Stacks🧩**{: style="color:#5491fa;font-size:13px; "}
->  </summary>
->  <small> Any container type may have the **pluggable property**. A **pluggable** container includes a `docker-compose.yml` file with a **network section,** designed for easy integration with other independent stacks via a shared external Docker network. </small>  
-> <small> A more detailed  **instruction** can be found [**here**](https://nicojane.github.io/Docker-Template-Stacks-Home/pluggable) (**local** [**here**](./pluggable) )</small>
->> <small> **Remark:**{: style="color:gray;font-size:10px; "} In hindsight, I would define **all containers** as pluggable</small>
-> </details>
+---
 
+## 1.3 Pluggable Container Architecture 🧩
 
-## 1.3 Quick Setup Process
+The **pluggable architecture** is a core DTS concept that enables multiple containers to work together as a unified system while remaining independently manageable.
+
+**How it works:**
+
+- Any container can be made pluggable by configuring its `docker-compose.yml` file with a **network section**
+- Containers with the 🧩 icon come **pre-configured** with this setup
+- Containers connect via a shared external Docker network
+- Each container maintains its own configuration while communicating seamlessly
+
+**Benefits:**
+
+- **Modular deployment** - Start only the services you need
+- **Independent updates** - Update containers without affecting others  
+- **Service isolation** - Each container handles a specific responsibility
+- **Scalable architecture** - Add new services easily
+
+> **Technical Implementation:** [External Docker Network Setup Guide (Gist)](https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238) - Complete configuration details for implementing pluggable architecture
+
+---
+
+## 1.4 Quick Setup Process
 
 1. **Prerequisites**: Ensure Docker Desktop is installed and running on your system
 2. **Download**: Obtain the appropriate template stack for your technology
 3. **Execute**: Run the provided setup script to build and start your development container
 4. **Develop**: Open the project in VS Code with Dev Containers and start coding
 
-## 1.3 Who & Why & Required
+---
+
+## 1.5 Who & Why & Required
 
 <details>
   <summary style="font-size: 1.0em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; General Requirements
@@ -178,7 +194,7 @@ Next follows a list  with references to the available DTS stack components
 
 #### Footnotes
 
-<small>**1.** <a name="note-1"></a> the new preferred shorter prefix. </small>
+<small>**1.** <a name="note-1"></a> The new preferred shorter prefix. </small>
 
 
 

@@ -17,6 +17,8 @@ Docker Template Stack components are containerized development environments that
 - **Integrated development environment** with VS Code and Dev Containers extension
 - **GUI output, using WSLg or X11**  Containers can be configured to display graphical output on the host
 
+---
+
 ## 1.2 Docker Stack Types
 
 We distinguish between two container **types** and one container **property** type:
@@ -36,26 +38,40 @@ These containers forward their (GUI) output to the host using X11 forwarding. Th
 **2. Type: Non-GUI Containers** <br>
 These containers do **not** support GUI forwarding and do **not** use the special prefix.
 
-><details>  
->  <summary class="clickable-summary">
->  <span  class="summary-icon"></span>
->  <b>Property: Pluggable Stacks🧩</b>
->  </summary>
->
->  <small> Any container type may have the **pluggable property**. A **pluggable** container includes a `docker-compose.yml` file with a **network section,** designed for easy integration with other independent stacks via a shared external Docker network. </small>  
-> <small> A more detailed  **instruction** can be found [**here**](https://nicojane.github.io/Docker-Template-Stacks-Home/pluggable) (**local** [**here**](./pluggable) )</small>
->> <small> **Remark:** In hindsight, I would define **all containers** as pluggable</small>
-> </details>
+---
 
+## 1.3 Pluggable Container Architecture 🧩
 
-## 1.3 Quick Setup Process
+The **pluggable architecture** is a core DTS concept that enables multiple containers to work together as a unified system while remaining independently manageable.
+
+**How it works:**
+
+- Any container can be made pluggable by configuring its `docker-compose.yml` file with a **network section**
+- Containers with the 🧩 icon come **pre-configured** with this setup
+- Containers connect via a shared external Docker network
+- Each container maintains its own configuration while communicating seamlessly
+
+**Benefits:**
+
+- **Modular deployment** - Start only the services you need
+- **Independent updates** - Update containers without affecting others  
+- **Service isolation** - Each container handles a specific responsibility
+- **Scalable architecture** - Add new services easily
+
+> **Technical Implementation:** [External Docker Network Setup Guide (Gist)](https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238) - Complete configuration details for implementing pluggable architecture
+
+---
+
+## 1.4 Quick Setup Process
 
 1. **Prerequisites**: Ensure Docker Desktop is installed and running on your system
 2. **Download**: Obtain the appropriate template stack for your technology
 3. **Execute**: Run the provided setup script to build and start your development container
 4. **Develop**: Open the project in VS Code with Dev Containers and start coding
 
-## 1.3 Who & Why
+--
+
+## 1.4 Who & Why
 
 <details>
   <summary> Target Audience
@@ -100,7 +116,9 @@ These containers do **not** support GUI forwarding and do **not** use the specia
 
 </details>
 
-<hr>
+---
+
+<br>
 
 # 2. The Docker Template Stack Components
 
