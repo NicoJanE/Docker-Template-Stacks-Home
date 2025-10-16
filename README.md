@@ -19,7 +19,7 @@ Docker Template Stack components are containerized development environments that
 
 ---
 
-## 1.2 Docker Stack Types
+## 1.2 Docker container Types
 
 We distinguish between two container **types** and one container **property** type:
 
