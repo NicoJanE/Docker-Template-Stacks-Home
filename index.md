@@ -140,6 +140,15 @@ A complete configuration details for implementing pluggable architecture </small
 
 Next follows a list  with references to the available DTS stack components
 
+><details>  
+>  <summary class="clickable-summary">
+>  <span  class="summary-icon"></span> <!-- Square Symbol -->
+>  **Note: Docker Desktop support**{: style="color:#5491fa;font-size:13px; "}
+>  </summary> <!-- On same line is failure -->
+>  <small> Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
+></details>
+
+
 ## 2.1 GUI Forward Containers
 - [X11-GUI-Dev 🖥️🧩](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/) <br>
   <small>The new **General purpose X11 GUI container** that forwards the GUI to Windows host, replacing ***App X11 Forward GUI***  </small><br>
@@ -180,14 +189,6 @@ Next follows a list  with references to the available DTS stack components
   <small> - A Docker container for  Rust</small>
 - \[Maria DB\] To be released (🧩)
 
-><details>  
->  <summary class="clickable-summary">
->  <span  class="summary-icon"></span> <!-- Square Symbol -->
->  **Note: Docker Desktop support**{: style="color:#5491fa;font-size:13px; "}
->  </summary> <!-- On same line is failure -->
->
->  <small> Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
-></details>
 
 <hr>
 
