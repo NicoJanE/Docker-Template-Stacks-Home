@@ -180,8 +180,6 @@ Next follows a list  with references to the available DTS stack components
   <small> - A Docker container for  Rust</small>
 - \[Maria DB\] To be released (🧩)
 
-<br>
-
 ><details>  
 >  <summary class="clickable-summary">
 >  <span  class="summary-icon"></span> <!-- Square Symbol -->
@@ -189,10 +187,9 @@ Next follows a list  with references to the available DTS stack components
 >  </summary> <!-- On same line is failure -->
 >
 >  <small> Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
+></details>
 
-</details>
-
-<hr><br>
+<hr>
 
 #### Footnotes
 
