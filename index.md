@@ -148,9 +148,9 @@ Next follows a list  with references to the available DTS stack components
 >  <small> Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
 ></details>
 
-
 ## 2.1 GUI Forward Containers
-- [X11-GUI-Dev 🖥️🧩](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/) <br>
+- [X11-GUI-Dev 🖥️](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/)🧩
+  <img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'><br>
   <small>The new **General purpose X11 GUI container** that forwards the GUI to Windows host, replacing ***App X11 Forward GUI***  </small><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
   <small> - A generic .NET container with a basic Command Application template</small> <br>
@@ -160,13 +160,16 @@ Next follows a list  with references to the available DTS stack components
   <small> - A .NET project container in combination with GTK#. </small><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - A PHP/Python/Rust Sub container </small><br>
-- [App X11 Forward GUI Cross-Compiling Win32 🖥️](https://nicojane.github.io/APP-X11-Forward-win32-Development-Template-Stack/) <br>
+- [App X11 Forward GUI Cross-Compiling Win32 🖥️](https://nicojane.github.io/APP-X11-Forward-win32-Development-Template-Stack/) 
+  <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
   <small> - Specific for win32/C language & frameworks  </small> <br>
-- [App X11 Forward GUI Cross-Compiling Win32 C++ 🖥️](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) <br>
+- [App X11 Forward GUI Cross-Compiling Win32 C++ 🖥️](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/)
+  <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' ><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - specific for Win32/C++ language & frameworks  </small> <br>
-- [App X11 Forward PyCRust 🖥️](https://nicojane.github.io/APP-X11-Forward-PyCRust-Dev-Template-Stack//) <br>
+- [App X11 Forward PyCRust 🖥️](https://nicojane.github.io/APP-X11-Forward-PyCRust-Dev-Template-Stack//)
+  <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
 
@@ -192,9 +195,18 @@ Next follows a list  with references to the available DTS stack components
 
 <hr>
 
-#### Footnotes
+#### Legend & Footnotes
 
-<small>**1.** <a name="note-1"></a> The new preferred shorter prefix. </small>
+
+**Legend2:**{: style="color: Darkgray;font-size:12px; "} <br>
+🖥️  *Container supports X11 forwarded GUI to host.*{: style="color: Darkgray;font-size:12px; "} <br>
+🧩  *The container by default can be part of a network stack*{: style="color: Darkgray;font-size:12px; "} <br>
+<img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'>*This represents a container with a dedicated configuration (i.e., only for C++ development)*{: style="color: Darkgray;font-size:12px; "} <br>
+<img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'>*This represents a container with multiple configurations (i.e., React, PHP, Node). You can choose which you want to use by configuring the appropriate **sub-container***{: style="color: Darkgray;font-size:12px; "} <br>
+
+
+**Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
+<small> - <a name="note-1"></a> Note 1: The new preferred shorter prefix. </small>
 
 
 
