@@ -140,7 +140,7 @@ A complete configuration details for implementing pluggable architecture </small
 
 Next follows a list  with references to the available DTS stack components
 
-## 2.1 GUI Forward containers
+## 2.1 GUI Forward Containers
 - [X11-GUI-Dev 🖥️🧩](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/) <br>
   <small>The new **General purpose X11 GUI container** that forwards the GUI to Windows host, replacing ***App X11 Forward GUI***  </small><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
@@ -161,7 +161,7 @@ Next follows a list  with references to the available DTS stack components
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
 
-## 2.2 None GUI containers
+## 2.2 None GUI Containers
 
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
@@ -189,6 +189,7 @@ Next follows a list  with references to the available DTS stack components
 >  </summary> <!-- On same line is failure -->
 >
 >  <small> Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
+
 </details>
 
 <hr><br>
