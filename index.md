@@ -6,7 +6,7 @@ RefPages:
 
 <br>
 # 1. What
-***W***{: style="font-size:26px; "}elcome to the **Docker Template Stack (DTS)!**<br>
+***W***{: style="font-size:26px; "}elcome to the **Docker Template Stack Components (DTS)!**<br>
 
 > [Direct Link to the Available Stack Components](#2-the-available-stack-components)
 
@@ -140,7 +140,7 @@ A complete configuration details for implementing pluggable architecture </small
 
 Next follows a list  with references to the available DTS stack components
 
-## 2.1 GUI Forward stacks
+## 2.1 GUI Forward containers
 - [X11-GUI-Dev 🖥️🧩](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/) <br>
   <small>The new **General purpose X11 GUI container** that forwards the GUI to Windows host, replacing ***App X11 Forward GUI***  </small><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
@@ -161,7 +161,7 @@ Next follows a list  with references to the available DTS stack components
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
 
-## 2.2 None GUI stacks
+## 2.2 None GUI containers
 
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
@@ -173,20 +173,31 @@ Next follows a list  with references to the available DTS stack components
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A Docker container for microcontroller bare-bone projects, in C and C++</small>
 - [React DTS](https://nicojane.github.io/React-Development-Template-Stack/) 
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
+  <small> - A Docker container for  React</small>
 - [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
+  <small> - A Docker container for  Rust</small>
 - \[Maria DB\] To be released (🧩)
 
+<br>
 
-> **Note**{: style="color:#5491fa;font-size:12px; "} <br>
-<small>
- Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄
- </small>
+><details>  
+>  <summary class="clickable-summary">
+>  <span  class="summary-icon"></span> <!-- Square Symbol -->
+>  **Note: Docker Desktop support**{: style="color:#5491fa;font-size:13px; "}
+>  </summary> <!-- On same line is failure -->
+>
+>  <small> Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
+</details>
 
-<hr>
+<hr><br>
 
 #### Footnotes
 
 <small>**1.** <a name="note-1"></a> The new preferred shorter prefix. </small>
+
+
 
 
 
