@@ -190,7 +190,15 @@ Next follows a list  with references to the available DTS stack components
 - [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A Docker container for  Rust</small>
+- [.NET DTS](https://nicojane.github.io/NET-Dev-Template-Stack/)  (🧩)
+<img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' >
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
+  <small> - A Docker container with .NET containers and template projects</small>
 - \[Maria DB\] To be released (🧩)
+
+
+
+
 
 
 <hr>
