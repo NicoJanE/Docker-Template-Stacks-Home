@@ -10,7 +10,6 @@ RefPages:
 
 Docker Template Stacks provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
-
 <div class="nje-info-box" style="--box-width: 25%;">
 📚 <strong>Direct Link </strong><br>
  <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#2-the-available-stack-components"> 🔶 The Available Stack Components</a>
@@ -36,18 +35,18 @@ Docker Template Stack components are containerized development environments that
 We distinguish between two container **types** and one container **property** type:
 
 **1. Type: GUI-Forwarding Containers 🖥️**{: style="color:#5f7f90;font-size:13px; "} <br>
-These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with:  ***`App-X11-Forward`***  or ***`X11-GUI`*** <sup>[1](#note-1)</sup> prefix and are marked with the above desktop icon in this document.
+These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with: `App-X11-Forward` or `X11-GUI` <sup>[1](#note-1)</sup> prefix and are marked with the above desktop icon in this document.
 
-><details>  
->  <summary class="clickable-summary">
->  <span  class="summary-icon"></span>
->  **Host requirement**{: style="color:#5491fa;font-size:13px; "}
->  </summary>
->  <small> These containers require the **XLaunch** program to be installed on your Windows host.  XLaunch uses the **X11 protocol** to forward the GUI to your host.  Instructions can be found in the **How-to** document of the relevant containers. </small>
-></details>
+<details>  
+  <summary class="clickable-summary">
+  <span class="nje-ident" style="--nje-number-of-spaces: 40px;"></span><span  class="summary-icon"></span>
+  **Host requirement**{: style="color:#5491fa;font-size:13px; "}
+  </summary>
+  >   <small> These containers require the **XLaunch** program to be installed on your Windows host.  XLaunch uses the **X11 protocol** to forward the GUI to your host.  Instructions can be found in the **How-to** document of the relevant containers.</small>
+</details>
 
 **2. Type: Non-GUI Containers**{: style="color:#5f7f90;font-size:13px; "} <br>
-These containers do **not** support GUI forwarding and do **not** use the special prefix.
+These containers do **not support GUI** forwarding and do not  use the special prefix.
 
 ---
 
@@ -69,8 +68,10 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 - **Service isolation** - Each container handles a specific responsibility
 - **Scalable architecture** - Add new services easily
 
-><small> **Technical Implementation:** [External Docker Network Setup Guide (Gist)](https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238)  
-A complete configuration details for implementing pluggable architecture </small>
+<div class="nje-info-box" style="--box-width: 25%;">
+📚 <strong>Technical Implementation </strong><br>
+ <a href="https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238"> 🔶 External Docker Network Setup Guide</a>
+</div>
 
 ---
 
@@ -146,13 +147,13 @@ A complete configuration details for implementing pluggable architecture </small
 
 Next follows a list  with references to the available DTS stack components
 
-><details>  
->  <summary class="clickable-summary">
->  <span  class="summary-icon"></span> <!-- Square Symbol -->
->  **Note: Docker Desktop support**{: style="color:#5491fa;font-size:13px; "}
->  </summary> <!-- On same line is failure -->
->  <small> Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
-></details>
+<details>  
+  <summary class="clickable-summary">
+  <span class="nje-ident" style="--nje-number-of-spaces: 40px;"></span><span  class="summary-icon"></span>
+   **Note: Docker Desktop support**{: style="color:#5491fa;font-size:13px; "}
+  </summary>
+  >   <small>Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
+</details>
 
 ## 2.1 GUI Forward Containers
 - [X11-GUI-Dev 🖥️](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/)🧩
@@ -217,5 +218,3 @@ Next follows a list  with references to the available DTS stack components
 
 **Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
 <small> - <a name="note-1"></a> ***Note** 1: The new preferred shorter prefix.*{: style="color: Darkgray;font-size:12px; "} </small>
-
-dev1-net
