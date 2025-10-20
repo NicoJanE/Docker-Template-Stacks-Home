@@ -11,8 +11,8 @@ RefPages:
 Docker Template Stacks provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
 
-<div class="nje-info-box" style="--box-width: 30%;">
-📚 <strong>Direct Link to the Available Stack Components</strong><br>
+<div class="nje-info-box" style="--box-width: 25%;">
+📚 <strong>Direct Link </strong><br>
  <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#2-the-available-stack-components"> 🔶 The Available Stack Components</a>
 </div>
 
