@@ -202,17 +202,15 @@ Next follows a list  with references to the available DTS stack components
   <small> - A Docker container with .NET containers and template projects</small>
 - \[Maria DB\] To be released (🧩)
 
+<br>
+<div align="center"> ─── ✦ ───
+</div>
 
 
-
-
-
-<hr>
-
+<br>
 #### Legend & Footnotes
 
-
-**Legend2:**{: style="color: Darkgray;font-size:12px; "} <br>
+**Legend:**{: style="color: Darkgray;font-size:12px; "} <br>
 🖥️  *Container supports X11 forwarded GUI to host.*{: style="color: Darkgray;font-size:12px; "} <br>
 🧩  *The container by default can be part of a network stack*{: style="color: Darkgray;font-size:12px; "} <br>
 <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'>*This represents a container with a dedicated configuration (i.e., only for C++ development)*{: style="color: Darkgray;font-size:12px; "} <br>
@@ -220,7 +218,7 @@ Next follows a list  with references to the available DTS stack components
 
 
 **Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
-<small> - <a name="note-1"></a> Note 1: The new preferred shorter prefix. </small>
+<small> - <a name="note-1"></a> ***Note** 1: The new preferred shorter prefix.*{: style="color: Darkgray;font-size:12px; "} </small>
 
 
 
