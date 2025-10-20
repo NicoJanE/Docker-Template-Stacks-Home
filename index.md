@@ -196,11 +196,11 @@ Next follows a list  with references to the available DTS stack components
 - [Rust DTS](https://nicojane.github.io/Rust-Development-Template-Stack/)
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A Docker container for  Rust</small>
-- [.NET DTS](https://nicojane.github.io/NET-Dev-Template-Stack/)  (🧩)
+- [.NET DTS](https://nicojane.github.io/NET-Dev-Template-Stack/)  🧩
 <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' >
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A Docker container with .NET containers and template projects</small>
-- \[Maria DB\] To be released (🧩)
+- \[Maria DB\] To be released 🧩
 
 <br>
 <div align="center"> ─── ✦ ───
@@ -210,10 +210,12 @@ Next follows a list  with references to the available DTS stack components
 
 **Legend:**{: style="color: Darkgray;font-size:12px; "} <br>
 🖥️  *Container supports X11 forwarded GUI to host.*{: style="color: Darkgray;font-size:12px; "} <br>
-🧩  *The container by default can be part of a network stack*{: style="color: Darkgray;font-size:12px; "} <br>
+🧩  *The container is by default part of an external network named: **dev1-net** (may be changed)*{: style="color: Darkgray;font-size:12px; "} <br>
 <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'>*This represents a container with a dedicated configuration (i.e., only for C++ development)*{: style="color: Darkgray;font-size:12px; "} <br>
 <img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'>*This represents a container with multiple configurations (i.e., React, PHP, Node). You can choose which you want to use by configuring the appropriate **sub-container***{: style="color: Darkgray;font-size:12px; "} <br>
 
 
 **Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
 <small> - <a name="note-1"></a> ***Note** 1: The new preferred shorter prefix.*{: style="color: Darkgray;font-size:12px; "} </small>
+
+dev1-net
