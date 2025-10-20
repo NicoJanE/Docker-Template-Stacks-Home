@@ -13,7 +13,7 @@ Docker Template Stacks provide pre-configured containerized development environm
 
 <div class="nje-info-box" style="--box-width: 30%;">
 📚 <strong>Direct Link to the Available Stack Components</strong><br>
- <a href="https://nicojane.github.io/WSL-Template-Stacks-Home//#2-the-available-stack-components"> 🔶 The Available Stack Components</a>
+ <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#2-the-available-stack-components"> 🔶 The Available Stack Components</a>
 </div>
 
 <br>
