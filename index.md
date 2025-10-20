@@ -206,8 +206,6 @@ Next follows a list  with references to the available DTS stack components
 <div align="center"> ─── ✦ ───
 </div>
 
-
-<br>
 #### Legend & Footnotes
 
 **Legend:**{: style="color: Darkgray;font-size:12px; "} <br>
@@ -219,10 +217,3 @@ Next follows a list  with references to the available DTS stack components
 
 **Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
 <small> - <a name="note-1"></a> ***Note** 1: The new preferred shorter prefix.*{: style="color: Darkgray;font-size:12px; "} </small>
-
-
-
-
-
-
-
