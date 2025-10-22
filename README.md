@@ -130,3 +130,10 @@ Please click on the link below for my docker Developer Template Stack Components
 
 [**click here**](https://nicojane.github.io/Docker-Template-Stacks-Home/)
 </div>
+
+
+<p align="center">
+  <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/">
+    <img src="assets/images/DTSfooter.svg" alt="Docker Template Stacks" width="400" />
+  </a>click
+</p>
