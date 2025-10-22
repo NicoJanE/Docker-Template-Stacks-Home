@@ -155,7 +155,10 @@ Next follows a list  with references to the available DTS stack components
   >   <small>Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
 </details>
 
-##  GUI Forward Containers
+## GUI Forward Project Containers
+
+These containers run Debian OS with X11 GUI forwarding and include a specific development environment, along with a template project to help you get started easily. Most are dedicated to a single development language. **However**, `X11-Dev` is a multi-container solution: it consists of a **Base Container** and multiple **Sub Containers**, each with its own development environment and templates. With `X11-Dev`, you can combine several development environments by adding the desired sub-containers.
+
 - [X11-GUI-Dev 🖥️](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/)🧩
   <img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'><br>
   <small>The new **General purpose X11 GUI container** that forwards the GUI to Windows host, replacing ***App X11 Forward GUI***  </small><br>
@@ -180,11 +183,10 @@ Next follows a list  with references to the available DTS stack components
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
 
-## None GUI Containers
+## None GUI Project Containers
 
-- [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
-   <small> - Jenkins CI/CD setup for individual developers working on local projects (not for production)</small> <br>
+These containers run Debian OS **without** X11 GUI forwarding. They still provide a specific development environment and a template project to help you get started quickly. Most are dedicated to a single development language.
+
 - [PHP DTS](https://nicojane.github.io/PHP-Development-Template-Stack/)
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A PHP template project, Different php versions, PHP Unit test, Symfony and Apache2</small>
@@ -198,10 +200,20 @@ Next follows a list  with references to the available DTS stack components
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A Docker container for  Rust</small>
 - [.NET DTS](https://nicojane.github.io/NET-Dev-Template-Stack/)  🧩
-<img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' >
+  <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' >
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A Docker container with .NET containers and template projects</small>
-- \[Maria DB\] To be released 🧩
+
+## Supporting Containers
+
+These containers do not include a development environment. Instead, they provide specific tools designed to integrate into your container stack. These are called  **Pluggable** containers because you can easily add them to your network/stack. By default, they use the **external network** `dev1-net` *(see Legend).*
+
+- [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) 🧩<br>
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
+   <small> - Jenkins CI/CD setup for individual developers working on local projects </small> <br>
+- [Maria DB](https://nicojane.github.io/Jenkins-Development-Stack/) 🧩<br>
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
+   <small> - Database for individual developers working on local projects </small> <br>
 
 <br>
 <div align="center"> ─── ✦ ───
