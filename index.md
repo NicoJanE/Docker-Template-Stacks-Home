@@ -5,8 +5,8 @@ RefPages:
 --- 
 
 <br>
-# 1. What
-***W***{: style="font-size:26px; "}elcome to the **Docker Template Stack Components (DTS)!**<br>
+
+<span style="font-size: 36px; font-weight: 550;">W</span><span style="font-size: 24px; font-weight: 500;">elcome the DTS site</span> <span style="color: #409EFF; font-style: italic; font-size:17px;"> — Docker Template Stack</span>
 
 Docker Template Stacks provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
@@ -17,7 +17,7 @@ Docker Template Stacks provide pre-configured containerized development environm
 
 <br>
 
-## 1.1 What's Included
+##  What's Included
 
 Docker Template Stack components are containerized development environments that combine:
 
@@ -30,7 +30,7 @@ Docker Template Stack components are containerized development environments that
 
 ---
 
-## 1.2 Docker Container Types
+##  Docker Container Types
 
 We distinguish between two container **types** and one container **property** type:
 
@@ -50,7 +50,7 @@ These containers do **not support GUI** forwarding and do not  use the special p
 
 ---
 
-## 1.3 Pluggable Container Architecture 🧩
+## Pluggable Container Architecture 🧩
 
 The **pluggable architecture** is a core DTS concept that enables multiple containers to work together as a unified system while remaining independently manageable.
 
@@ -75,7 +75,7 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 
 ---
 
-## 1.4 Quick Setup Process
+## Quick Setup Process
 
 1. **Prerequisites**: Ensure Docker Desktop is installed and running on your system
 2. **Download**: Obtain the appropriate template stack for your technology
@@ -84,7 +84,7 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 
 ---
 
-## 1.5 Who & Why & Required
+## Who & Why & Required
 
 <details>
   <summary style="font-size: 1.0em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; General Requirements
@@ -143,7 +143,7 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 
 <hr>
 
-# 2 The Available Stack Components
+# The Available Stack Components
 
 Next follows a list  with references to the available DTS stack components
 
@@ -155,7 +155,7 @@ Next follows a list  with references to the available DTS stack components
   >   <small>Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
 </details>
 
-## 2.1 GUI Forward Containers
+##  GUI Forward Containers
 - [X11-GUI-Dev 🖥️](https://nicojane.github.io/X11-GUI-Dev-Template-Stack/)🧩
   <img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'><br>
   <small>The new **General purpose X11 GUI container** that forwards the GUI to Windows host, replacing ***App X11 Forward GUI***  </small><br>
@@ -180,7 +180,7 @@ Next follows a list  with references to the available DTS stack components
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
 
-## 2.2 None GUI Containers
+## None GUI Containers
 
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) <br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
