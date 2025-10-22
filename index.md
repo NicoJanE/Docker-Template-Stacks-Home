@@ -211,7 +211,7 @@ These containers do not include a development environment. Instead, they provide
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) 🧩<br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
    <small> - Jenkins CI/CD setup for individual developers working on local projects </small> <br>
-- [Maria DB](https://nicojane.github.io/Jenkins-Development-Stack/) 🧩<br>
+- [Maria DB](https://nicojane.github.io/MariaDB/) 🧩<br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
    <small> - Database for individual developers working on local projects </small> <br>
 
