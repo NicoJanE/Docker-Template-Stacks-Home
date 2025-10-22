@@ -125,15 +125,16 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 
 Please click on the link below for my docker Developer Template Stack Components and the related information
 
+<!--
 <div style="text-align: center;">
 <font size="5">   <span style="color:#FFD700" >D</span>ocker <span style="color:#FFA500" >T</span>emplate <span style="color:#FF7F50" >S</span>tacks </font>
 
 [**click here**](https://nicojane.github.io/Docker-Template-Stacks-Home/)
 </div>
-
+-->
 
 <p align="center">
   <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/">
     <img src="assets/images/DTSfooter.svg" alt="Docker Template Stacks" width="400" />
-  </a>click
+  </a>
 </p>
