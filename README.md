@@ -41,7 +41,7 @@ These containers do **not** support GUI forwarding and do **not** use the specia
 
 ---
 
-##  Pluggable Container Architecture 🧩
+## Pluggable Container Architecture 🧩
 
 The **pluggable architecture** is a core DTS concept that enables multiple containers to work together as a unified system while remaining independently manageable.
 
