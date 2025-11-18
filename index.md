@@ -175,22 +175,19 @@ These containers run Debian OS with X11 GUI forwarding and include a specific de
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
   <small> - Specific for win32/C language & frameworks  </small> <br>
   <small> - And for Win32/C++ language & frameworks  </small> <br>
-- [App X11 Forward GUI Cross-Compiling Win32 C++ 🖥️⚠️](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) 
-  <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' ><br>
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
-  <small> - specific for Win32/C++ language & frameworks  </small> <br>
 - [App X11 Forward PyCRust 🖥️](https://nicojane.github.io/APP-X11-Forward-PyCRust-Dev-Template-Stack//)
   <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
+- [App X11 Forward GUI Cross-Compiling Win32 C++ 🖥️⚠️](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) 
+  <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' ><br>
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
+  <small> - specific for Win32/C++ language & frameworks  </small> <br>
 
 ## None GUI Project Containers
 
 These containers run Debian OS **without** X11 GUI forwarding. They still provide a specific development environment and a template project to help you get started quickly. Most are dedicated to a single development language.
 
-- [PHP DTS](https://nicojane.github.io/PHP-Development-Template-Stack/)
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
-  <small> - A PHP template project, Different php versions, PHP Unit test, Symfony and Apache2</small>
 - [STM32](https://nicojane.github.io/STM32F4/)
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A Docker container for microcontroller bare-bone projects, in C and C++</small>
@@ -204,6 +201,9 @@ These containers run Debian OS **without** X11 GUI forwarding. They still provid
   <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' >
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A Docker container with .NET containers and template projects</small>
+- [PHP DTS 🔍](https://nicojane.github.io/PHP-Development-Template-Stack/)
+  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
+  <small> - A PHP template project, Different php versions, PHP Unit test, Symfony and Apache2</small>
 
 ## Supporting Containers
 
@@ -226,6 +226,7 @@ These containers do not include a development environment. Instead, they provide
 🖥️  *Container supports X11 forwarded GUI to host.*{: style="color: Darkgray;font-size:12px; "} <br>
 🧩  *The container is by default part of an external network named: **dev1-net** (may be changed)*{: style="color: Darkgray;font-size:12px; "} <br>
 ⚠️  *The container is deprecated, and may be removed*{: style="color: Darkgray;font-size:12px; "} <br>
+🔍  *This container or item needs review*{: style="color: Darkgray;font-size:12px; "} <br>
 <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'>*This represents a container with a dedicated configuration (i.e., only for C++ development)*{: style="color: Darkgray;font-size:12px; "} <br>
 <img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'>*This represents a container with multiple configurations (i.e., React, PHP, Node). You can choose which you want to use by configuring the appropriate **sub-container***{: style="color: Darkgray;font-size:12px; "} <br>
 
