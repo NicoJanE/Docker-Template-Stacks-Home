@@ -4,9 +4,7 @@
 
 Docker Template Stack Components provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
-> [Direct Link to the Available Stack components](https://nicojane.github.io/Docker-Template-Stacks-Home/index#2-the-available-stack-components)
-
-<br>
+> [Direct Link to: Homepage Stack Components](https://nicojane.github.io/Docker-Template-Stacks-Home/index#2-the-available-stack-components)
 
 ## What's Included
 
@@ -120,10 +118,6 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 ---
 
 <br>
-
-# The Docker Template Stack Components
-
-Please click on the link below for my docker Developer Template Stack Components and the related information
 
 <!--
 <div style="text-align: center;">
