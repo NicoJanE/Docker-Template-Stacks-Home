@@ -4,20 +4,39 @@ RefPages:
  
 --- 
 
-<br>
-
-<span style="font-size: 36px; font-weight: 550;">W</span><span style="font-size: 24px; font-weight: 500;">elcome the DTS site</span> <span style="color: #409EFF; font-style: italic; font-size:17px;"> — Docker Template Stack</span>
+<table class ="no-border"  style="width:100%;">
+  <tr>
+    <td style="vertical-align:middle; text-align:left; height:40px;">&nbsp;</td>
+    <td style="text-align:right; vertical-align:bottom; margin-right:4px;">
+      <a href="https://nicojane.github.io/WSL-Template-Stacks-Home/"
+         style="background:#0078d7; color:white; padding:3px 10px; border-radius:8px; font-size:0.8em; text-decoration:none; font-weight:bold; display:inline-block;">
+        🚀 To WSL Stacks
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:middle; text-align:left;">
+      <span style="font-size: 2em; font-weight: 550;">W</span>
+      <span style="font-size: 1.3em; font-weight: 500; margin-left: -0.3em;">elcome to the DTS site</span>
+      <span style="color: #409EFF; font-style: italic; font-size:1em;"> — Docker Template Stack</span>
+    </td>
+    <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
+  </tr>
+</table>
+<div class="nje-br1"> </div> 
 
 Docker Template Stacks provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
 <div class="nje-info-box" style="--box-width: 25%;">
-📚 <strong>Direct Link </strong><br>
- <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#the-available-stack-components"> 🔶 The Available Stack Components</a>
+📚 <strong>Direct Link to: </strong><br>
+ <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#the-available-stack-components"> 🔶 The Available DTS Components</a>
 </div>
+
+
 
 <br>
 
-##  What's Included
+## What's Included
 
 Docker Template Stack components are containerized development environments that combine:
 

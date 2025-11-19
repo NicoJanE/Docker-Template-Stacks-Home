@@ -1704,3 +1704,22 @@ Next the collapsisble boxes that are base on the 'nje-box*' mixings
     font-size: inherit !important;
     line-height: inherit !important;
 }
+
+table.no-border, table.no-border th, table.no-border td {
+  border: none !important;
+  box-shadow: none !important;
+}
+@media (max-width: 600px) {
+  table.no-border, table.no-border tr, table.no-border td {
+    display: block;
+    width: 100%;
+  }
+  table.no-border td:first-child {
+    text-align: center !important;
+    padding: 8px 0;
+  }
+  table.no-border td:last-child {
+    text-align: right !important;
+    padding: 8px 0;
+  }
+}
