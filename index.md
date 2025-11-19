@@ -31,10 +31,7 @@ Docker Template Stacks provide pre-configured containerized development environm
 📚 <strong>Direct Link to: </strong><br>
  <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#the-available-stack-components"> 🔶 The Available DTS Components</a>
 </div>
-
-
-
-<br>
+<div class="nje-br1"> </div>
 
 ## What's Included
 
@@ -49,7 +46,7 @@ Docker Template Stack components are containerized development environments that
 
 ---
 
-##  Docker Container Types
+## Docker Container Types
 
 We distinguish between two container **types** and one container **property** type:
 
@@ -158,7 +155,6 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
   - **One container, runs everywhere**
 
 </details>
-
 
 <hr>
 
