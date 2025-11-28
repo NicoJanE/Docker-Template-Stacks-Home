@@ -14,8 +14,8 @@ RefPages:
   </tr>
   <tr>
     <td style="vertical-align:middle; text-align:left;">
-      <span style="font-size: 2.2em; font-weight: 550;">W</span>
-      <span style="font-size: 1.5em; font-weight: 500; margin-left: -0.3em;">elcome to the DTS site</span> <br>
+      <span style="font-size: 3.2em; font-weight: 550;">W</span>
+      <span style="font-size: 2.5em; font-weight: 500; margin-left: -0.2em;">elcome to the DTS site</span> <br>
       <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — Docker Template Stack</span>
     </td>
     <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
@@ -255,7 +255,9 @@ These containers do not include a development environment. Instead, they provide
 </details>
 <div class="nje-br4"> </div>
 
+**Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
 <small> - <a name="note-1"></a> ***Note** 1: The new preferred, shorter prefix.*{: style="color: Darkgray;font-size:12px; "} </small>
+
 
 <br>
 <div align="center"> ─── ✦ ───
