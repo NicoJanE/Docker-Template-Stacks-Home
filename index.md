@@ -255,9 +255,7 @@ These containers do not include a development environment. Instead, they provide
 </details>
 <div class="nje-br4"> </div>
 
-**Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
 <small> - <a name="note-1"></a> ***Note** 1: The new preferred, shorter prefix.*{: style="color: Darkgray;font-size:12px; "} </small>
-
 
 <br>
 <div align="center"> ─── ✦ ───
