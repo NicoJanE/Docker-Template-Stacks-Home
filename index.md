@@ -22,71 +22,69 @@ RefPages:
   </tr>
 </table>
 
-
-
-
-Docker Template Stacks provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
+Docker Template Stacks offer pre-configured, containerized development environments, enabling developers to leverage Docker for consistent, portable, and isolated workflows.Each stack is tailored to specific development scenarios and includes all necessary tools, dependencies, and a working template project for various programming languages and frameworks
 
 <div class="nje-info-box" style="--box-width: 25%;">
 📚 <strong>Direct Link to: </strong><br>
- <a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#the-available-stack-components"> 🔶 The Available DTS Components</a>
+ <span class="nje-indent2"><a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#the-available-stack-components"> 🔶 The Available DTS Components</a>
 </div>
 <div class="nje-br1"> </div>
 
 ## What's Included
 
-Docker Template Stack components are containerized development environments that combine:
+ Docker Template Stack components are containerized development environments that combine:
 
 - **Pre-configured Docker containers** with specific programming language toolchains
-- **Can be combined together to create a (network) Stack**
+- **Can be combined to create a network Stack**
 - **Complete development toolset** including compilers, package managers, and utilities
 - **Ready-to-use template projects** demonstrating best practices and architecture
 - **Integrated development environment** with VS Code and Dev Containers extension
-- **GUI output, using WSLg or X11**  Containers can be configured to display graphical output on the host
+- **GUI output, using WSLg or X11**  Containers can be configured to display graphical output on the host.
 
 ---
 
 ## Docker Container Types
 
-We distinguish between two container **types** and one container **property** type:
+There are two container **types** and one container **property**
 
-**1. Type: GUI-Forwarding Containers 🖥️**{: style="color:#5f7f90;font-size:13px; "} <br>
-These containers forward their (GUI) output to the host using X11 forwarding. They are prefixed with: `App-X11-Forward` or `X11-GUI` <sup>[1](#note-1)</sup> prefix and are marked with the above desktop icon in this document.
+<span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white; ">**1. GUI-Forwarding Containers** 🖥️</span> <br>
+These containers forward their GUI output to the host using X11.
+They are prefixed with: <span class="nje-cmd-inline-sm">App-X11-Forward</span> or <span class="nje-cmd-inline-sm">X11-GUI</span> <sup>[1](#note-1)</sup> prefix and are marked with the above desktop icon in this document.
 
-<details>  
-  <summary class="clickable-summary">
-  <span class="nje-ident" style="--nje-number-of-spaces: 40px;"></span><span  class="summary-icon"></span>
-  **Host requirement**{: style="color:#5491fa;font-size:13px; "}
+<details class="nje-note-box">
+  <summary>Host requirement
   </summary>
-  >   <small> These containers require the **XLaunch** program to be installed on your Windows host.  XLaunch uses the **X11 protocol** to forward the GUI to your host.  Instructions can be found in the **How-to** document of the relevant containers.</small>
+   These containers require the **XLaunch** program on your Windows host.  XLaunch uses the **X11 protocol** to forward the GUI to your host.  Instructions can be found in the **How-to** document of the relevant containers.
 </details>
+<br>
+<div class="nje-br1"> </div>
 
-**2. Type: Non-GUI Containers**{: style="color:#5f7f90;font-size:13px; "} <br>
-These containers do **not support GUI** forwarding and do not  use the special prefix.
+<span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white; ">**2. Non-GUI-Forwarding Containers** 🖥️</span> <br>
+These containers do **not support GUI** forwarding and do not use the special prefix.
 
 ---
 
 ## Pluggable Container Architecture 🧩
 
-The **pluggable architecture** is a core DTS concept that enables multiple containers to work together as a unified system while remaining independently manageable.
+**Pluggable architecture** is a core DTS concept, allowing multiple containers to work together as a unified system while remaining independently manageable
 
 **How it works:**
 
-- Any container can be made pluggable by configuring its `docker-compose.yml` file with a **network section**
+- Any container can be made pluggable by configuring its <span class="nje-cmd-inline-sm">docker-compose.yml</span> file with a **network section**
 - Containers with the 🧩 icon come **pre-configured** with this setup
-- Containers connect via a shared external Docker network
-- Each container maintains its own configuration while communicating seamlessly
+- Containers connect through a shared external Docker network.
+- Each container maintains its own configuration and communicates seamlessly
 
 **Benefits:**
 
-- **Modular deployment** - Start only the services you need
-- **Independent updates** - Update containers without affecting others  
-- **Service isolation** - Each container handles a specific responsibility
-- **Scalable architecture** - Add new services easily
+- **Modular deployment** - start only the services you need
+- **Independent updates** - update containers without affecting others  
+- **Service isolation** - each container handles a specific responsibility
+- **Scalable architecture** - add new services easily
 
 <div class="nje-info-box" style="--box-width: 25%;">
-📚 <strong>Technical Implementation </strong><br>
- <a href="https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238"> 🔶 External Docker Network Setup Guide</a>
+📚 <strong>Technical Implementation </strong> <br>
+<span class="nje-indent2"> <a href="https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238"> 🔶 External Docker Network Setup Guide</a>
 </div>
 
 ---
@@ -94,28 +92,32 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 ## Quick Setup Process
 
 1. **Prerequisites**: Ensure Docker Desktop is installed and running on your system
-2. **Download**: Obtain the appropriate template stack for your technology
-3. **Execute**: Run the provided setup script to build and start your development container
-4. **Develop**: Open the project in VS Code with Dev Containers and start coding
+2. **Clone**: Clone the appropriate template stack for your technology
+3. **Execute**: Run the setup script to build and start your development container
+4. **Develop**: Open the project in VS Code using Dev Containers and start coding.
 
 ---
 
-## Who & Why & Required
+## Additional Information, Requirements, Features
 
-<details>
-  <summary style="font-size: 1.0em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; General Requirements
+Make sure the following requirements apply:
+<details class="nje-note-box" style="margin-top:-18px;">
+  <summary>General Requirements
   </summary>
-  
+
 - Have **Docker Desktop** installed and running on your **host**
-- **Docker Desktop**  images are tested and supported on the following host operating systems.
-  - Supported on Windows✅
-  - Supported on Linux❓
-  - Supported on macOS❓
+  - **Docker Desktop** images are tested and supported on the following host operating systems:
+    - Supported on Windows✅
+    - Supported on Linux❓
+    - Supported on macOS❓
 
 </details>
+<div class="nje-br4"> </div>
 
-<details>
-  <summary style="font-size: 1.0em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; Target Audience
+These development stacks are intended for:
+
+<details class="nje-note-box" style="margin-top:-18px;">
+  <summary>Target Audience
   </summary>
 
 - **Cross-platform developers** wanting consistent environments across Windows, macOS, and Linux
@@ -125,11 +127,17 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 - **Anyone** who values rapid setup, portability, and completely isolated development environments
 
 </details>
+<div class="nje-br4"> </div>
 
-<details>
-  <summary style="font-size: 1.0em; font-weight: 600; margin-top: 0.1em; margin-bottom: 0.2em;"> &#9654; Key benefits
+Key features::
+
+<details class="nje-note-box" style="margin-top:-18px;">
+  <summary>Key Features
   </summary>
 
+The stacks feature the following <br><br>
+
+<div class="nje-features-box">
 - **Rapid Development Setup**
   - Execute a single setup script to build and configure your development container
   - Automatically provision the Docker container with all required tools and dependencies
@@ -154,21 +162,22 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
   - Use the same development stack regardless of your host operating system
   - **One container, runs everywhere**
 
+</div>
 </details>
-
+<div class="nje-br4"> </div>
 <hr>
+<div class="nje-br2"> </div>
 
 # The Available Stack Components
 
-Next follows a list  with references to the available DTS stack components
+Below is a list with references to the available DTS stack components.
 
-<details>  
-  <summary class="clickable-summary">
-  <span class="nje-ident" style="--nje-number-of-spaces: 40px;"></span><span  class="summary-icon"></span>
-   **Note: Docker Desktop support**{: style="color:#5491fa;font-size:13px; "}
+<details class="nje-note-box" >
+  <summary>Docker Desktop support
   </summary>
-  >   <small>Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄 </small>
+   Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄
 </details>
+<div class="nje-br2"> </div>
 
 ## GUI Forward Project Containers
 
@@ -193,7 +202,7 @@ These containers run Debian OS with X11 GUI forwarding and include a specific de
 - [App X11 Forward PyCRust 🖥️](https://nicojane.github.io/APP-X11-Forward-PyCRust-Dev-Template-Stack//)
   <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
-  <small> - An project container for development in Python (frontend) in combination with Rust and C/C++ (backend)  </small> <br>
+  <small> - A project container for development in Python (frontend) combined with Rust and C/C++ (backend)  </small> <br>
 - [App X11 Forward GUI Cross-Compiling Win32 C++ 🖥️⚠️](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) 
   <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' ><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
@@ -218,7 +227,7 @@ These containers run Debian OS **without** X11 GUI forwarding. They still provid
   <small> - A Docker container with .NET containers and template projects</small>
 - [PHP DTS 🔍](https://nicojane.github.io/PHP-Development-Template-Stack/)
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
-  <small> - A PHP template project, Different php versions, PHP Unit test, Symfony and Apache2</small>
+  <small> - A PHP template project, different PHP versions, PHPUnit tests, Symfony, and Apache2</small>
 
 ## Supporting Containers
 
@@ -226,25 +235,30 @@ These containers do not include a development environment. Instead, they provide
 
 - [Jenkins](https://nicojane.github.io/Jenkins-Development-Stack/) 🧩<br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
-   <small> - Jenkins CI/CD setup for individual developers working on local projects </small> <br>
+  <small> - Jenkins CI/CD setup for individual developers working on local projects.</small> <br>
 - [Maria DB](https://nicojane.github.io/MariaDB/) 🧩<br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
-   <small> - Database for individual developers working on local projects </small> <br>
+  <small> - Database for individual developers working on local projects.</small> <br>
+
+<div class="nje-br2"> </div>
+<details class="nje-note-box">
+  **Legend:**{: style="color: Darkgray;font-size:12px; "} <br>
+  <summary>Legend
+  </summary>
+- 🖥️  *Container supports X11 forwarded GUI to host.*{: style="color: Darkgray;font-size:12px; "} <br>
+- 🧩  *The container is by default part of an external network named: **dev1-net** (may be changed)*{: style="color: Darkgray;font-size:12px; "} <br>
+  - ⚠️  *The container is deprecated and may be removed.*{: style="color: Darkgray;font-size:12px; "} <br>
+  - 🔍  *This container or item needs review.*{: style="color: Darkgray;font-size:12px; "} <br>
+  - <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'>*Represents a container with a dedicated configuration (e.g., only for C++ development).*
+  - <img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'>*Represents a container with multiple configurations (e.g., React, PHP, Node). You can choose which to use by configuring the appropriate **sub-container**.*
+
+</details>
+<div class="nje-br4"> </div>
+
+**Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
+<small> - <a name="note-1"></a> ***Note** 1: The new preferred, shorter prefix.*{: style="color: Darkgray;font-size:12px; "} </small>
+
 
 <br>
 <div align="center"> ─── ✦ ───
 </div>
-
-#### Legend & Footnotes
-
-**Legend:**{: style="color: Darkgray;font-size:12px; "} <br>
-🖥️  *Container supports X11 forwarded GUI to host.*{: style="color: Darkgray;font-size:12px; "} <br>
-🧩  *The container is by default part of an external network named: **dev1-net** (may be changed)*{: style="color: Darkgray;font-size:12px; "} <br>
-⚠️  *The container is deprecated, and may be removed*{: style="color: Darkgray;font-size:12px; "} <br>
-🔍  *This container or item needs review*{: style="color: Darkgray;font-size:12px; "} <br>
-<img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'>*This represents a container with a dedicated configuration (i.e., only for C++ development)*{: style="color: Darkgray;font-size:12px; "} <br>
-<img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'>*This represents a container with multiple configurations (i.e., React, PHP, Node). You can choose which you want to use by configuring the appropriate **sub-container***{: style="color: Darkgray;font-size:12px; "} <br>
-
-
-**Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
-<small> - <a name="note-1"></a> ***Note** 1: The new preferred shorter prefix.*{: style="color: Darkgray;font-size:12px; "} </small>
