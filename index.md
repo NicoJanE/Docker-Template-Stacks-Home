@@ -170,7 +170,7 @@ The stacks feature the following <br><br>
 
 # The Available Stack Components
 
-Below is a list with references to the available DTS stack components.
+The following sections list the available DTS stack components, organized by container type.
 
 <details class="nje-note-box" >
   <summary>Docker Desktop support
