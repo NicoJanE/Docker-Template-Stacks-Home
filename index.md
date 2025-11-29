@@ -32,64 +32,72 @@ Docker Template Stacks offer pre-configured, containerized development environme
 
 ## What's Included
 
- Docker Template Stack components are containerized development environments that combine:
+Docker Template Stack components are containerized development environments that combine the following features, which apply to all containers listed in the “Available Stack Components”
 
 - **Pre-configured Docker containers** with specific programming language toolchains
 - **Can be combined to create a network Stack**
 - **Complete development toolset** including compilers, package managers, and utilities
 - **Ready-to-use template projects** demonstrating best practices and architecture
 - **Integrated development environment** with VS Code and Dev Containers extension
-- **GUI output, using WSLg or X11**  Containers can be configured to display graphical output on the host.
+- **May support GUI output, using WSLg or X11**  Containers can be configured to display graphical output on the host.
 
 ---
 
 ## Docker Container Types
 
-There are two container **types** and one container **property**
+There are two different container **types**
 
-<span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white; ">**1. GUI-Forwarding Containers** 🖥️</span> <br>
+<span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white; ">**1. GUI-Forwarding Containers** &nbsp; 🖥️</span> <br>
 These containers forward their GUI output to the host using X11.
 They are prefixed with: ***App-X11-Forward*** or ***X11-GUI*** <sup>[1](#note-1)</sup> prefix and are marked with the above desktop icon in this document.
 
 <details class="nje-note-box">
-  <summary>Host requirement
+  <summary>Host requires XLaunch
   </summary>
    These containers require the **XLaunch** program on your Windows host.  XLaunch uses the **X11 protocol** to forward the GUI to your host.  Instructions can be found in the **How-to** document of the relevant containers.
 </details>
 <br>
 <div class="nje-br1"> </div>
 
-<span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white; ">**2. Non-GUI-Forwarding Containers** 🖥️</span> <br>
+<span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white; ">**2. Non-GUI-Forwarding Containers**</span> <br>
 These containers do **not** support GUI forwarding and do not use the special prefix.
 
 ---
 
 ## Pluggable Container Architecture 🧩
 
-**Pluggable architecture** is a core DTS concept, allowing multiple containers to work together as a unified system while remaining independently manageable
+**Pluggable architecture** is a core DTS property, allowing multiple containers to work together as a unified system while remaining independently manageable. Stack components with this icon 🧩 have a default pluggable implementation. Additionally, any stack component can be upgraded with a pluggable property.
 
-**How it works:**
+<details class="nje-back-box">
+  <summary>Pluggable Property Details
+  </summary>
+
+## How it works
 
 - Any container can be made pluggable by configuring its <span class="nje-cmd-inline-sm">docker-compose.yml</span> file with a **network section**
 - Containers with the 🧩 icon come **pre-configured** with this setup
 - Containers connect through a shared external Docker network.
 - Each container maintains its own configuration and communicates seamlessly
 
-**Benefits:**
+## Benefits
 
 - **Modular deployment** - start only the services you need
 - **Independent updates** - update containers without affecting others  
 - **Service isolation** - each container handles a specific responsibility
 - **Scalable architecture** - add new services easily
 
+<p align="center" style="padding:20px;">─── ✦ ───</p>
+</details>
+<span class="nje-br2"> </span>
+
 <div class="nje-info-box" style="--box-width: 25%;">
-📚 <strong>Technical Implementation </strong> <br>
+📚 <strong>Usage Instruction </strong> <br>
 <span class="nje-indent2"> <a href="https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238"> 🔶 External Docker Network Setup Guide</a>
 </div>
 
 ---
 
-## Quick Setup Process
+## General Quick Setup Process
 
 1. **Prerequisites**: Ensure Docker Desktop is installed and running on your system
 2. **Clone**: Clone the appropriate template stack for your technology
@@ -98,9 +106,9 @@ These containers do **not** support GUI forwarding and do not use the special pr
 
 ---
 
-## Additional Information
+### Additional setup Information
 
-Make sure the following requirements apply:
+<div class="nje-br4"> </div>
 <details class="nje-note-box" style="margin-top:-18px;">
   <summary>General Requirements
   </summary>
@@ -113,8 +121,7 @@ Make sure the following requirements apply:
 
 </details>
 <div class="nje-br4"> </div>
-
-These development stacks are intended for:
+<div class="nje-br2"> </div>
 
 <details class="nje-note-box" style="margin-top:-18px;">
   <summary>Target Audience
@@ -128,8 +135,7 @@ These development stacks are intended for:
 
 </details>
 <div class="nje-br4"> </div>
-
-Key features::
+<div class="nje-br2"> </div>
 
 <details class="nje-note-box" style="margin-top:-18px;">
   <summary>Key Features
