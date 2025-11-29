@@ -26,7 +26,7 @@ Docker Template Stacks offer pre-configured, containerized development environme
 
 <div class="nje-info-box" style="--box-width: 25%;">
 📚 <strong>Direct Link to: </strong><br>
- <span class="nje-indent2"><a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#the-available-stack-components"> 🔶 The Available DTS Components</a>
+ <span class="nje-indent2"><a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#the-stack-components"> 🔶 The Available DTS Components</a>
 </div>
 <div class="nje-br1"> </div>
 
@@ -109,7 +109,7 @@ These containers do **not** support GUI forwarding and do not use the special pr
 ### Additional setup Information
 
 <div class="nje-br4"> </div>
-<details class="nje-note-box" style="margin-top:-18px;">
+<details class="nje-note-box" style="margin-top:-18px; margin-left:0px;">
   <summary>General Requirements
   </summary>
 
@@ -123,7 +123,7 @@ These containers do **not** support GUI forwarding and do not use the special pr
 <div class="nje-br4"> </div>
 <div class="nje-br2"> </div>
 
-<details class="nje-note-box" style="margin-top:-18px;">
+<details class="nje-note-box" style="margin-top:-18px; margin-left:0px;">
   <summary>Target Audience
   </summary>
 
@@ -137,7 +137,7 @@ These containers do **not** support GUI forwarding and do not use the special pr
 <div class="nje-br4"> </div>
 <div class="nje-br2"> </div>
 
-<details class="nje-note-box" style="margin-top:-18px;">
+<details class="nje-note-box" style="margin-top:-18px;margin-left:0px;">
   <summary>Key Features
   </summary>
 
@@ -174,7 +174,7 @@ The stacks feature the following <br><br>
 <hr>
 <div class="nje-br2"> </div>
 
-# The Available Stack Components
+# The Stack Components
 
 The following sections list the available DTS stack components, organized by container type.
 
