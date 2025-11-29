@@ -60,7 +60,7 @@ They are prefixed with: ***App-X11-Forward*** or ***X11-GUI*** <sup>[1](#note-1)
 <div class="nje-br1"> </div>
 
 <span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white; ">**2. Non-GUI-Forwarding Containers** 🖥️</span> <br>
-These containers do **not*** support GUI forwarding and do not use the special prefix.
+These containers do **not** support GUI forwarding and do not use the special prefix.
 
 ---
 
