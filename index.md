@@ -15,8 +15,8 @@ RefPages:
   <tr>
     <td style="vertical-align:middle; text-align:left;">
       <span style="font-size: 3.2em; font-weight: 550;">W</span>
-      <span style="font-size: 2.5em; font-weight: 500; margin-left: -0.2em;">elcome to the DTS site</span> <br>
-      <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — Docker Template Stack</span>
+      <span style="font-size: 2.5em; font-weight: 500; margin-left: -0.2em;">elcome to the DTS</span> <br>
+      <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — A Docker Template Stack</span>
     </td>
     <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
   </tr>
@@ -49,7 +49,7 @@ There are two container **types** and one container **property**
 
 <span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white; ">**1. GUI-Forwarding Containers** 🖥️</span> <br>
 These containers forward their GUI output to the host using X11.
-They are prefixed with: <span class="nje-cmd-inline-sm">App-X11-Forward</span> or <span class="nje-cmd-inline-sm">X11-GUI</span> <sup>[1](#note-1)</sup> prefix and are marked with the above desktop icon in this document.
+They are prefixed with: ***App-X11-Forward*** or ***X11-GUI*** <sup>[1](#note-1)</sup> prefix and are marked with the above desktop icon in this document.
 
 <details class="nje-note-box">
   <summary>Host requirement
@@ -60,7 +60,7 @@ They are prefixed with: <span class="nje-cmd-inline-sm">App-X11-Forward</span> o
 <div class="nje-br1"> </div>
 
 <span class="nje-colored-block" style="--nje-bgcolor:gray; --nje-textcolor:white; ">**2. Non-GUI-Forwarding Containers** 🖥️</span> <br>
-These containers do **not support GUI** forwarding and do not use the special prefix.
+These containers do **not*** support GUI forwarding and do not use the special prefix.
 
 ---
 
@@ -98,7 +98,7 @@ These containers do **not support GUI** forwarding and do not use the special pr
 
 ---
 
-## Additional Information, Requirements, Features
+## Additional Information
 
 Make sure the following requirements apply:
 <details class="nje-note-box" style="margin-top:-18px;">
@@ -242,20 +242,21 @@ These containers do not include a development environment. Instead, they provide
 
 <div class="nje-br2"> </div>
 <details class="nje-note-box">
-  **Legend:**{: style="color: Darkgray;font-size:12px; "} <br>
-  <summary>Legend
+  <summary>
+  **Legend** <br>
   </summary>
 - 🖥️  *Container supports X11 forwarded GUI to host.*{: style="color: Darkgray;font-size:12px; "} <br>
 - 🧩  *The container is by default part of an external network named: **dev1-net** (may be changed)*{: style="color: Darkgray;font-size:12px; "} <br>
-  - ⚠️  *The container is deprecated and may be removed.*{: style="color: Darkgray;font-size:12px; "} <br>
-  - 🔍  *This container or item needs review.*{: style="color: Darkgray;font-size:12px; "} <br>
-  - <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'>*Represents a container with a dedicated configuration (e.g., only for C++ development).*
-  - <img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'>*Represents a container with multiple configurations (e.g., React, PHP, Node). You can choose which to use by configuring the appropriate **sub-container**.*
+- ⚠️  *The container is deprecated and may be removed.*{: style="color: Darkgray;font-size:12px; "} <br>
+- 🔍  *This container or item needs review.*{: style="color: Darkgray;font-size:12px; "} <br>
+- <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'>*Represents a container with a dedicated configuration (e.g., only for C++ development).*
+- <img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'>*Represents a container with multiple configurations (e.g., React, PHP, Node). You can choose which to use by configuring the appropriate **sub-container**.*
 
 </details>
 <div class="nje-br4"> </div>
+<div class="nje-br2"> </div>
 
-**Footnotes:**{: style="color: Darkgray;font-size:12px; "} <br>
+**Footnotes**{: style="color: Darkgray;font-size:11px; "} <br>
 <small> - <a name="note-1"></a> ***Note** 1: The new preferred, shorter prefix.*{: style="color: Darkgray;font-size:12px; "} </small>
 
 
