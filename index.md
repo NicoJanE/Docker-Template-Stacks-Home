@@ -179,12 +179,12 @@ The stacks feature the following <br><br>
 
 The following sections list the available DTS stack components, organized by container type.
 
-<details class="nje-note-box" >
-  <summary>Docker Desktop support
-  </summary>
-   Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄
-</details>
-<div class="nje-br2"> </div>
+<div class="nje-block-now-header">
+Current under Development (improvements):
+</div>
+<span class="nje-block-now">
+    <a href="https://github.com/NicoJanE/NET-Dev-Template-Stack"><b>NET-Dev-Template-Stack</b></a><span class="desc"> ➜ NET dev Docker stack for containers</span>
+</span>
 
 ## GUI Forward Project Containers
 
@@ -246,6 +246,13 @@ These containers do not include a development environment. Instead, they provide
 - [Maria DB](https://nicojane.github.io/MariaDB/) 🧩<br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small>
   <small> - Database for individual developers working on local projects.</small> <br>
+
+<details class="nje-note-box" >
+  <summary>Docker Desktop support
+  </summary>
+   Although these images were developed on Windows using Docker Desktop, they **should** work on other operating systems with minor changes (e.g., file path formats). This is currently **unverified** — optimistic expectation 😄
+</details>
+<div class="nje-br2"> </div>
 
 <div class="nje-br2"> </div>
 <details class="nje-note-box">
