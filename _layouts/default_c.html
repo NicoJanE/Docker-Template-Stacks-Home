@@ -14,6 +14,11 @@
 {% seo %}
 
     {% include head-custom.html %}
+
+  <!-- -In _config,yaml add value for: google_site_verification: -->
+	{% if site.google_verification %}
+		<meta name="google-site-verification" content="{{ site.google_verification }}">
+	{% endif %}
   </head>
 
   <body>
