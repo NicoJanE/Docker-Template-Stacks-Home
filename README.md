@@ -1,12 +1,12 @@
 
-<span style="font-size: 36px; font-weight: 550;">W</span><span style="font-size: 24px; font-weight: 500;">elcome the DTS site</span> <span style="color: #409EFF; font-style: italic; font-size:17px;"> — Docker Template Stack</span>
+<span style="font-size: 36px; font-weight: 550;">W</span><span style="font-size: 24px; font-weight: 500;">elcome the DTS site</span> <span style="color: #409EFF; font-style: italic; font-size:17px;"> — Docker Template Stack Collection</span>
 
 
 Docker Template Stack Components provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
-> [Direct Link to: Homepage Stack Components](https://nicojane.github.io/Docker-Template-Stacks-Home/index#2-the-available-stack-components)
+> [Start here](https://nicojane.github.io/Docker-Template-Stacks-Home/index#2-the-available-stack-components)
 
-## What's Included
+## Design principles
 
 Docker Template Stack components are containerized development environments that combine:
 
@@ -15,10 +15,11 @@ Docker Template Stack components are containerized development environments that
 - **Ready-to-use template projects** demonstrating best practices and architecture
 - **Integrated development environment** with VS Code and Dev Containers extension
 - **GUI output, using WSLg or X11**  Containers can be configured to display graphical output on the host
+<br>
 
----
+## Features
 
-## Docker container Types
+### Docker container Types
 
 We distinguish between two container **types** and one container **property** type:
 
@@ -39,7 +40,7 @@ These containers do **not** support GUI forwarding and do **not** use the specia
 
 ---
 
-## Pluggable Container Architecture 🧩
+### Pluggable Container Architecture 🧩
 
 The **pluggable architecture** is a core DTS concept that enables multiple containers to work together as a unified system while remaining independently manageable.
 
@@ -58,8 +59,7 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 - **Scalable architecture** - Add new services easily
 
 > **Technical Implementation:** [External Docker Network Setup Guide (Gist)](https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238) - Complete configuration details for implementing pluggable architecture
-
----
+<br>
 
 ## Quick Setup Process
 
@@ -67,8 +67,8 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 2. **Download**: Obtain the appropriate template stack for your technology
 3. **Execute**: Run the provided setup script to build and start your development container
 4. **Develop**: Open the project in VS Code with Dev Containers and start coding
+<br>
 
----
 
 ## Who & Why
 

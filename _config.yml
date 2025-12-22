@@ -1,11 +1,14 @@
 # A change in this file, NEEDS a rebuild!
-#
+# - In Docker: rm -rf _site, stop container and start container
 
 
-title: <font size="6">   <span style="color:#FFD700" >D</span>ocker <span style="color:#FFA500" >T</span>emplate <span style="color:#FF7F50" >S</span>tack Components </font>
-description: <b><i><font size="3">Container templates that can be combined into complete stacks</span></font></i></b>
+# title: <font size="6">   <span style="color:#FFD700" >D</span>ocker <span style="color:#FFA500" >T</span>emplate <span style="color:#FF7F50" >S</span>tack Components </font>
+title: "<font size=\"6\">  Docker DTS:  Reproducible Dev Env </font>"
+# description: <b><i><font size="3">Container templates that can be combined into complete stacks</span></font></i></b>
+#description: <b><i>  <font size="5">   <span style="color:#FFD700" >D</span><span style="color:#FFA500" >T</span><span style="color:#FF7F50" >S</span> – <span style="color:#FFD700" >D</span>ocker <span style="color:#FFA500" >T</span>emplate <span style="color:#FF7F50" >S</span>tacks </font></i></b>
+description: <b><i>  <font size="5"> <span style="color:#FFD700" >D</span>ocker <span style="color:#FFA500" >T</span>emplate <span style="color:#FF7F50" >S</span>tacks </font></i></b>
 show_downloads: false
-google_analytics:
+#google_analytics:    # Provide a value or remove this line if not used
 theme: jekyll-theme-architect
 
 # Used for discussion link

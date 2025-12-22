@@ -17,21 +17,23 @@ TableCont:
     <td style="vertical-align:middle; text-align:left;">
       <span style="font-size: 3.2em; font-weight: 550;">W</span>
       <span style="font-size: 2.5em; font-weight: 500; margin-left: -0.2em;">elcome to the DTS</span> <br>
-      <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — A Docker Template Stack</span>
+      <span style="color: #409EFF; font-style: italic; font-size:1.1em; position:relative; top:-0.6em; display:inline-block;"> — A Docker Template Stack Collection</span>
     </td>
     <td style="text-align:right; vertical-align:middle;">&nbsp;</td>
   </tr>
 </table>
 
+## Introduction
+
 Docker Template Stacks offer pre-configured, containerized development environments, enabling developers to leverage Docker for consistent, portable, and isolated workflows.Each stack is tailored to specific development scenarios and includes all necessary tools, dependencies, and a working template project for various programming languages and frameworks
 
 <div class="nje-info-box" style="--box-width: 25%;">
-📚 <strong>Direct Link to: </strong><br>
+📚 <strong>Start here </strong><br>
  <span class="nje-indent2"><a href="https://nicojane.github.io/Docker-Template-Stacks-Home/#the-stack-components"> 🔶 The Available DTS Components</a>
 </div>
 <div class="nje-br1"> </div>
 
-## What's Included
+## Design principles
 
 Docker Template Stack components are containerized development environments that combine the following features, which apply to all containers listed in the “Available Stack Components”
 
@@ -42,9 +44,11 @@ Docker Template Stack components are containerized development environments that
 - **Integrated development environment** with VS Code and Dev Containers extension
 - **May support GUI output, using WSLg or X11**  Containers can be configured to display graphical output on the host.
 
----
+<div class="nje-br1"> </div>
 
-## Docker Container Types
+## Features
+
+### Docker Container Types
 
 There are two different container **types**
 
@@ -65,7 +69,7 @@ These containers do **not** support GUI forwarding and do not use the special pr
 
 ---
 
-## Pluggable Container Architecture 🧩
+### Pluggable Container Architecture 🧩
 
 **Pluggable architecture** is a core DTS property, allowing multiple containers to work together as a unified system while remaining independently manageable. Stack components with this icon 🧩 have a default pluggable implementation. Additionally, any stack component can be upgraded with a pluggable property.
 
@@ -95,8 +99,7 @@ These containers do **not** support GUI forwarding and do not use the special pr
 📚 <strong>Usage Instruction </strong> <br>
 <span class="nje-indent2"> <a href="https://gist.github.com/NicoJanE/709aacd7f2b3f858dce68ec27038a238"> 🔶 External Docker Network Setup Guide</a>
 </div>
-
----
+<div class="nje-br1"> </div>
 
 ## General Quick Setup Process
 
@@ -104,8 +107,6 @@ These containers do **not** support GUI forwarding and do not use the special pr
 2. **Clone**: Clone the appropriate template stack for your technology
 3. **Execute**: Run the setup script to build and start your development container
 4. **Develop**: Open the project in VS Code using Dev Containers and start coding.
-
----
 
 ### Additional setup Information
 
@@ -172,10 +173,9 @@ The stacks feature the following <br><br>
 </div>
 </details>
 <div class="nje-br4"> </div>
-<hr>
-<div class="nje-br2"> </div>
+<div class="nje-br3"> </div>
 
-# The Stack Components
+## The Stack Components
 
 The following sections list the available DTS stack components, organized by container type.
 
@@ -186,7 +186,7 @@ Current under Development (improvements):
     <a href="https://github.com/NicoJanE/NET-Dev-Template-Stack"><b>NET-Dev-Template-Stack</b></a><span class="desc"> ➜ NET dev Docker stack for containers</span>
 </span>
 
-## GUI Forward Project Containers
+### GUI Forward Project Containers
 
 These containers run Debian OS with X11 GUI forwarding and include a specific development environment, along with a template project to help you get started easily. Most are dedicated to a single development language. **However**, `X11-Dev` is a multi-container solution: it consists of a **Base Container** and multiple **Sub Containers**, each with its own development environment and templates. With `X11-Dev`, you can combine several development environments by adding the desired sub-containers.
 
@@ -214,8 +214,9 @@ These containers run Debian OS with X11 GUI forwarding and include a specific de
   <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' ><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - specific for Win32/C++ language & frameworks  </small> <br>
+<div class="nje-br1"> </div>
 
-## None GUI Project Containers
+### None GUI Project Containers
 
 These containers run Debian OS **without** X11 GUI forwarding. They still provide a specific development environment and a template project to help you get started quickly. Most are dedicated to a single development language.
 
@@ -235,8 +236,9 @@ These containers run Debian OS **without** X11 GUI forwarding. They still provid
 - [PHP DTS 🔍](https://nicojane.github.io/PHP-Development-Template-Stack/)
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/> </small><br>
   <small> - A PHP template project, different PHP versions, PHPUnit tests, Symfony, and Apache2</small>
+<div class="nje-br1"> </div>
 
-## Supporting Containers
+### Supporting Containers
 
 These containers do not include a development environment. Instead, they provide specific tools designed to integrate into your container stack. These are called  **Pluggable** containers because you can easily add them to your network/stack. By default, they use the **external network** `dev1-net` *(see Legend).*
 
