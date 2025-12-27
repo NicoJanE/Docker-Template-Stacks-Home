@@ -1,6 +1,6 @@
-
-<span style="font-size: 36px; font-weight: 550;">W</span><span style="font-size: 24px; font-weight: 500;">elcome the DTS site</span> <span style="color: #409EFF; font-style: italic; font-size:17px;"> — Docker Template Stack Collection</span>
-
+<h1> 
+  Welcome the DTS <i><sub><sub> - A Docker Template Stack Collection</sub></sub></i>
+</h1>
 
 Docker Template Stack Components provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
@@ -114,7 +114,7 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
   - **One container, runs everywhere**
 
 </details>
-<br><br>
+<br>
 
 ### License
 
