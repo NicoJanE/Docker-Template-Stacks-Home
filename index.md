@@ -269,6 +269,12 @@ These containers do not include a development environment. Instead, they provide
 - <img src=".\assets\images\docker_m.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Multiple containers'>*Represents a container with multiple configurations (e.g., React, PHP, Node). You can choose which to use by configuring the appropriate **sub-container**.*
 
 </details>
+<div class="nje-br1"> </div>
+
+### License 
+
+All repositories are MIT licensed and free to use. For optional commercial support, customization, training, or long-term maintenance, see [`COMMERCIAL.md`](COMMERCIAL.md).
+
 <div class="nje-br4"> </div>
 <div class="nje-br2"> </div>
 
