@@ -23,6 +23,6 @@ These services are optional and are not required to use the software. Availabili
 
 If you are interested in commercial services or would like to discuss your specific needs, feel free to get in touch:
 
-- Email: NicoJanE@ziggo.nl
+- Email: [NicoJanE@ziggo.nl](mailto:NicoJanE@ziggo.nl)
   
 Please include the name of the repository or project in your email subject to help me respond quickly.
