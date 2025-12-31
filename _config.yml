@@ -31,9 +31,10 @@ home_site_url:
 index_hide_home: false
 
 plugins:
-- jekyll-remote-theme 
+- jekyll-remote-theme
 - jekyll-toc # Add this plugin for TOC generation
-
+- jekyll-sitemap
+ 
 # Added 26 July 2024
 # This is here to enable the parse_block_html feature for MD parsing in a details tag
 markdown: kramdown
