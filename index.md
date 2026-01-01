@@ -23,6 +23,8 @@ TableCont:
   </tr>
 </table>
 
+![MIT License](https://img.shields.io/badge/License-MIT-green) ![Commercial Services Available](https://img.shields.io/badge/Services-Optional-blue)
+
 ## Introduction
 
 Docker Template Stacks offer pre-configured, containerized development environments, enabling developers to leverage Docker for consistent, portable, and isolated workflows.Each stack is tailored to specific development scenarios and includes all necessary tools, dependencies, and a working template project for various programming languages and frameworks
@@ -272,9 +274,9 @@ These containers do not include a development environment. Instead, they provide
 <div class="nje-br1"> </div>
 <br><br>
 
-### License 
+### License
 
-All repositories are MIT licensed and free to use. For optional commercial support, customization, training, or long-term maintenance, see [`COMMERCIAL.md`](COMMERCIAL.md).
+All repositories are [MIT licensed](MIT-license.md) and free to use. For optional commercial support, customization, training, or long-term maintenance, see [`COMMERCIAL.md`](COMMERCIAL.md).
 
 <div class="nje-br4"> </div>
 <div class="nje-br2"> </div>

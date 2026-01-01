@@ -2,6 +2,8 @@
   Welcome the DTS <i><sub><sub> - A Docker Template Stack Collection</sub></sub></i>
 </h1>
 
+![MIT License](https://img.shields.io/badge/License-MIT-green) ![Commercial Services Available](https://img.shields.io/badge/Services-Optional-blue)
+
 Docker Template Stack Components provide pre-configured containerized development environments for developers who want to leverage Docker for consistent, portable, and isolated development. Each Docker Template Stack is tailored for specific development scenarios and includes a complete development environment with all necessary tools, dependencies, and a working template project for specific programming languages and frameworks.
 
 > [Start here](https://nicojane.github.io/Docker-Template-Stacks-Home/index#2-the-available-stack-components)
@@ -118,7 +120,7 @@ The **pluggable architecture** is a core DTS concept that enables multiple conta
 
 ### License
 
-All repositories are MIT licensed and free to use. For optional commercial support, customization, training, or long-term maintenance, see [`COMMERCIAL.md`](COMMERCIAL.md).
+All repositories are [MIT licensed](MIT-license.md) and free to use. For optional commercial support, customization, training, or long-term maintenance, see [`COMMERCIAL.md`](COMMERCIAL.md).
 
 ---
 
