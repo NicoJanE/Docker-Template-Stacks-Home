@@ -212,10 +212,8 @@ These containers run Debian OS with X11 GUI forwarding and include a specific de
   <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container'><br>
   <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
   <small> - A project container for development in Python (frontend) combined with Rust and C/C++ (backend)  </small> <br>
-- [App X11 Forward GUI Cross-Compiling Win32 C++ 🖥️⚠️](https://nicojane.github.io/APP-X11-Forward-win32-CPP-Development-Template-Stack/) 
-  <img src=".\assets\images\docker_s.png" alt="Docker Icon" width="24" height="24" style="background: transparent; vertical-align: -6px;" title='Dedicated container' ><br>
-  <small><span class="nje-ident" style="--nje-number-of-spaces: 4px;"/>  </small>
-  <small> - specific for Win32/C++ language & frameworks  </small> <br>
+- [~~App X11 Forward GUI Cross-Compiling Win32 C++~~ 🖥️⚠️]()<br>
+  <small> - Removed in favor of: [App X11 Forward GUI Cross-Compiling Win32](https://nicojane.github.io/APP-X11-Forward-win32-Development-Template-Stack/) above </small> <br>
 <div class="nje-br1"> </div>
 
 ### None GUI Project Containers
