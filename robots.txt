@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nicojane.github.io/WSL-Template-Stacks-Home/sitemap.xml
