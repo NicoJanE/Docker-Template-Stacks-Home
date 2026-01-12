@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nicojane.github.io/WSL-Template-Stacks-Home/sitemap.xml
+Sitemap: https://nicojane.github.io/Docker-Template-Stacks-Home/sitemap.xml
